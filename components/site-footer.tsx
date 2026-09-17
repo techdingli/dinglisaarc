@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { site } from "@/lib/site";
+import { dealerConnectUrl } from "@/lib/dealer-connect";
 import { families } from "@/lib/catalog";
 
 const companyLinks = [
@@ -81,16 +82,18 @@ export function SiteFooter() {
           {supportLinks.map((l) => (
             <FooterLink key={l.href} {...l} />
           ))}
-          <li>
-            <a
-              href={site.dealerConnectUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="text-sm transition-colors hover:text-brand"
-            >
-              Dealer Connect
-            </a>
-          </li>
+          {dealerConnectUrl() && (
+            <li>
+              <a
+                href={dealerConnectUrl()!}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm transition-colors hover:text-brand"
+              >
+                Dealer Connect
+              </a>
+            </li>
+          )}
         </FooterCol>
       </div>
 

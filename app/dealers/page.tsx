@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight, Building2, MapPin } from "lucide-react";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion";
 import { SectionHeading } from "@/components/section-heading";
-import { site } from "@/lib/site";
+import { dealerConnectUrl } from "@/lib/dealer-connect";
 
 export const metadata: Metadata = {
   title: "Dealers",
@@ -17,7 +17,7 @@ const cities = [
 ];
 
 export default function DealersPage() {
-  const hasDealerApp = site.dealerConnectUrl !== "#";
+  const portalUrl = dealerConnectUrl();
 
   return (
     <>
@@ -52,19 +52,15 @@ export default function DealersPage() {
               </div>
 
               <div className="flex flex-col gap-3">
-                {hasDealerApp ? (
+                {portalUrl && (
                   <a
-                    href={site.dealerConnectUrl}
+                    href={portalUrl}
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center justify-center gap-2 rounded-md bg-brand px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
                   >
                     Open Dealer Connect <ArrowUpRight className="size-4" />
                   </a>
-                ) : (
-                  <p className="rounded-md border border-white/20 px-5 py-3.5 text-center text-sm text-white/60">
-                    Set NEXT_PUBLIC_DEALER_CONNECT_URL to link the portal.
-                  </p>
                 )}
                 <Link
                   href="/contact"

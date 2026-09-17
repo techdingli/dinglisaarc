@@ -21,9 +21,6 @@ export const site = {
     pin: "600107",
   },
   hours: "Mon-Sat, 9:00-18:00 IST",
-
-  /** External app already deployed on Vercel. */
-  dealerConnectUrl: process.env.NEXT_PUBLIC_DEALER_CONNECT_URL ?? "#",
 } as const;
 
 export const heroStats = [
