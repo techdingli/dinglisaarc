@@ -1,0 +1,4687 @@
+{
+ "products": [
+  {
+   "id": "1325",
+   "name": "JCPT0708PA",
+   "slug": "jcpt0708pa",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Electric Slab Scissors"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/jcpt0708pa.webp",
+   "gallery": [
+    "/equipment/jcpt0708pa-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.10 m",
+    "Platform Height": "26.10 m",
+    "Horizontal Reach": "18.80 m",
+    "Capacity": "250 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.1
+  },
+  {
+   "id": "7472",
+   "name": "S1612AC+",
+   "slug": "s1612ac",
+   "categories": [
+    "AC⁺ Series"
+   ],
+   "category": "AC⁺ Series",
+   "categorySlug": "ac-plus-series",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/s1612ac.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "15.70 m",
+    "Platform Height": "13.70 m",
+    "Capacity": "363 kg",
+    "Weight": "3390 kg"
+   },
+   "workingHeightM": 15.7
+  },
+  {
+   "id": "7482",
+   "name": "S1614AC+",
+   "slug": "s1614ac",
+   "categories": [
+    "AC⁺ Series"
+   ],
+   "category": "AC⁺ Series",
+   "categorySlug": "ac-plus-series",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/s1614ac.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "15.70 m",
+    "Platform Height": "13.70 m",
+    "Capacity": "363 kg",
+    "Weight": "3500 kg"
+   },
+   "workingHeightM": 15.7
+  },
+  {
+   "id": "7465",
+   "name": "S1412AC+",
+   "slug": "s1412ac",
+   "categories": [
+    "AC⁺ Series"
+   ],
+   "category": "AC⁺ Series",
+   "categorySlug": "ac-plus-series",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/s1412ac.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "13.80 m",
+    "Platform Height": "11.80 m",
+    "Capacity": "408 kg",
+    "Weight": "3250 kg"
+   },
+   "workingHeightM": 13.8
+  },
+  {
+   "id": "7450",
+   "name": "S1212AC+",
+   "slug": "s1212ac",
+   "categories": [
+    "AC⁺ Series"
+   ],
+   "category": "AC⁺ Series",
+   "categorySlug": "ac-plus-series",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/s1212ac.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "12.00 m",
+    "Platform Height": "10.00 m",
+    "Capacity": "408 kg",
+    "Weight": "3060 kg"
+   },
+   "workingHeightM": 12.0
+  },
+  {
+   "id": "1305",
+   "name": "JCPT1008PA",
+   "slug": "jcpt1008pa",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Electric Slab Scissors"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/jcpt1008pa.webp",
+   "gallery": [
+    "/equipment/jcpt1008pa-g1.webp",
+    "/equipment/jcpt1008pa-g2.webp"
+   ],
+   "specs": {
+    "Working Height": "10.00 m",
+    "Platform Height": "8.00 m",
+    "Capacity": "230 kg",
+    "Weight": "2350 kg"
+   },
+   "workingHeightM": 10.0
+  },
+  {
+   "id": "1301",
+   "name": "JCPT1012PA",
+   "slug": "jcpt1012pa",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Electric Slab Scissors"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/jcpt1012pa.webp",
+   "gallery": [
+    "/equipment/jcpt1012pa-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "10.00 m",
+    "Platform Height": "8.00 m",
+    "Capacity": "350 kg",
+    "Weight": "2850 kg"
+   },
+   "workingHeightM": 10.0
+  },
+  {
+   "id": "7442",
+   "name": "S1008AC+",
+   "slug": "s1008ac",
+   "categories": [
+    "AC⁺ Series"
+   ],
+   "category": "AC⁺ Series",
+   "categorySlug": "ac-plus-series",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/s1008ac.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "10.00 m",
+    "Platform Height": "8.00 m",
+    "Capacity": "272 kg",
+    "Weight": "2230 kg"
+   },
+   "workingHeightM": 10.0
+  },
+  {
+   "id": "7449",
+   "name": "S1012AC+",
+   "slug": "s1012ac",
+   "categories": [
+    "AC⁺ Series"
+   ],
+   "category": "AC⁺ Series",
+   "categorySlug": "ac-plus-series",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/s1012ac.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "10.00 m",
+    "Platform Height": "8.00 m",
+    "Capacity": "450 kg",
+    "Weight": "2750 kg"
+   },
+   "workingHeightM": 10.0
+  },
+  {
+   "id": "1310",
+   "name": "JCPT0808PA",
+   "slug": "jcpt0808pa",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Electric Slab Scissors"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/jcpt0808pa.webp",
+   "gallery": [
+    "/equipment/jcpt0808pa-g1.webp",
+    "/equipment/jcpt0808pa-g2.webp"
+   ],
+   "specs": {
+    "Working Height": "8.00 m",
+    "Platform Height": "6.00 m",
+    "Capacity": "380 kg",
+    "Weight": "2290 kg"
+   },
+   "workingHeightM": 8.0
+  },
+  {
+   "id": "7434",
+   "name": "S0808AC+",
+   "slug": "s0808ac",
+   "categories": [
+    "AC⁺ Series"
+   ],
+   "category": "AC⁺ Series",
+   "categorySlug": "ac-plus-series",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/s0808ac.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "8.00 m",
+    "Platform Height": "6.00 m",
+    "Capacity": "408 kg",
+    "Weight": "2160 kg"
+   },
+   "workingHeightM": 8.0
+  },
+  {
+   "id": "1321",
+   "name": "JCPT0807PA",
+   "slug": "jcpt0807pa",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Electric Slab Scissors"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/jcpt0807pa.webp",
+   "gallery": [
+    "/equipment/jcpt0807pa-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "7.80 m",
+    "Platform Height": "5.80 m",
+    "Capacity": "230 kg",
+    "Weight": "1650 kg"
+   },
+   "workingHeightM": 7.8
+  },
+  {
+   "id": "7424",
+   "name": "S0807AC+",
+   "slug": "s0807ac",
+   "categories": [
+    "AC⁺ Series"
+   ],
+   "category": "AC⁺ Series",
+   "categorySlug": "ac-plus-series",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/s0807ac.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "7.80 m",
+    "Platform Height": "5.80 m",
+    "Capacity": "272 kg",
+    "Weight": "1630 kg"
+   },
+   "workingHeightM": 7.8
+  },
+  {
+   "id": "1287",
+   "name": "AMWP8-8100L",
+   "slug": "amwp8-8100l",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Self Propelled Vertical Masts"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/amwp8-8100l.webp",
+   "gallery": [
+    "/equipment/amwp8-8100l-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "7.60 m",
+    "Platform Height": "5.60 m",
+    "Capacity": "227 kg",
+    "Weight": "1380 kg"
+   },
+   "workingHeightM": 7.6
+  },
+  {
+   "id": "1329",
+   "name": "JCPT0708PAH",
+   "slug": "jcpt0708pah",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Electric Slab Scissors"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/jcpt0708pah.webp",
+   "gallery": [
+    "/equipment/jcpt0708pah-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "7.60 m",
+    "Platform Height": "5.60 m",
+    "Capacity": "230 kg",
+    "Weight": "1340 kg"
+   },
+   "workingHeightM": 7.6
+  },
+  {
+   "id": "1295",
+   "name": "AMWP7-8100",
+   "slug": "amwp7-8100",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Self Propelled Vertical Masts"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/amwp7-8100.webp",
+   "gallery": [
+    "/equipment/amwp7-8100-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "6.70 m",
+    "Platform Height": "4.70 m",
+    "Capacity": "200 kg",
+    "Weight": "990 kg"
+   },
+   "workingHeightM": 6.7
+  },
+  {
+   "id": "1291",
+   "name": "AMWP7-8100L",
+   "slug": "amwp7-8100l",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Self Propelled Vertical Masts"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/amwp7-8100l.webp",
+   "gallery": [
+    "/equipment/amwp7-8100l-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "6.70 m",
+    "Platform Height": "4.70 m",
+    "Capacity": "200 kg",
+    "Weight": "990 kg"
+   },
+   "workingHeightM": 6.7
+  },
+  {
+   "id": "1333",
+   "name": "JCPT0607PA",
+   "slug": "jcpt0607pa",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Electric Slab Scissors"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/jcpt0607pa.webp",
+   "gallery": [
+    "/equipment/jcpt0607pa-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "5.60 m",
+    "Platform Height": "3.60 m",
+    "Capacity": "240 kg",
+    "Weight": "920 kg"
+   },
+   "workingHeightM": 5.6
+  },
+  {
+   "id": "1339",
+   "name": "JCPT0607PAH",
+   "slug": "jcpt0607pah",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Electric Slab Scissors"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/jcpt0607pah.webp",
+   "gallery": [
+    "/equipment/jcpt0607pah-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "5.60 m",
+    "Platform Height": "3.60 m",
+    "Capacity": "240 kg",
+    "Weight": "950 kg"
+   },
+   "workingHeightM": 5.6
+  },
+  {
+   "id": "1341",
+   "name": "JCPT0507PA",
+   "slug": "jcpt0507pa",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Electric Slab Scissors"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/jcpt0507pa.webp",
+   "gallery": [
+    "/equipment/jcpt0507pa-g1.webp",
+    "/equipment/jcpt0507pa-g2.webp"
+   ],
+   "specs": {
+    "Working Height": "5.05 m",
+    "Platform Height": "3.05 m",
+    "Capacity": "230 kg",
+    "Weight": "570 kg"
+   },
+   "workingHeightM": 5.05
+  },
+  {
+   "id": "1299",
+   "name": "OPT0507",
+   "slug": "opt0507",
+   "categories": [
+    "Oil-Free & All-Electric",
+    "Stock Pickers & Order Pickers"
+   ],
+   "category": "Oil-Free & All-Electric",
+   "categorySlug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "power": "Electric",
+   "image": "/equipment/opt0507.webp",
+   "gallery": [
+    "/equipment/opt0507-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "4.99 m",
+    "Platform Height": "2.99 m",
+    "Capacity": "135 kg",
+    "Weight": "640 kg"
+   },
+   "workingHeightM": 4.99
+  },
+  {
+   "id": "276",
+   "name": "BT44ERT",
+   "slug": "bt44ert",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt44ert.webp",
+   "gallery": [
+    "/equipment/bt44ert-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "44.44 m",
+    "Platform Height": "42.44 m",
+    "Horizontal Reach": "25.00 m",
+    "Capacity": "300 kg",
+    "Weight": "22600 kg"
+   },
+   "workingHeightM": 44.44
+  },
+  {
+   "id": "281",
+   "name": "BT44HRT",
+   "slug": "bt44hrt",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt44hrt.webp",
+   "gallery": [
+    "/equipment/bt44hrt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "44.44 m",
+    "Platform Height": "42.44 m",
+    "Horizontal Reach": "25.00 m",
+    "Capacity": "300 kg",
+    "Weight": "22300 kg"
+   },
+   "workingHeightM": 44.44
+  },
+  {
+   "id": "252",
+   "name": "BT44RT",
+   "slug": "bt44rt",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt44rt.webp",
+   "gallery": [
+    "/equipment/bt44rt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "44.44 m",
+    "Platform Height": "42.44 m",
+    "Horizontal Reach": "25.00 m",
+    "Capacity": "300 kg",
+    "Weight": "22300 kg"
+   },
+   "workingHeightM": 44.44
+  },
+  {
+   "id": "7293",
+   "name": "BA44ERT",
+   "slug": "ba44ert",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba44ert.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "44.06 m",
+    "Platform Height": "42.06 m",
+    "Capacity": "272 kg",
+    "Weight": "23950 kg"
+   },
+   "workingHeightM": 44.06
+  },
+  {
+   "id": "7308",
+   "name": "BA44HRT",
+   "slug": "ba44hrt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba44hrt.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "44.06 m",
+    "Platform Height": "42.06 m",
+    "Capacity": "272 kg",
+    "Weight": "23950 kg"
+   },
+   "workingHeightM": 44.06
+  },
+  {
+   "id": "7274",
+   "name": "BA44RT",
+   "slug": "ba44rt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba44rt.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "44.06 m",
+    "Platform Height": "42.06 m",
+    "Capacity": "272 kg",
+    "Weight": "23900 kg"
+   },
+   "workingHeightM": 44.06
+  },
+  {
+   "id": "887",
+   "name": "BT41ERT",
+   "slug": "bt41ert",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt41ert.webp",
+   "gallery": [
+    "/equipment/bt41ert-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "41.54 m",
+    "Platform Height": "39.54 m",
+    "Horizontal Reach": "23.50 m",
+    "Capacity": "300 kg",
+    "Weight": "21060 kg"
+   },
+   "workingHeightM": 41.54
+  },
+  {
+   "id": "891",
+   "name": "BT41HRT",
+   "slug": "bt41hrt",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt41hrt.webp",
+   "gallery": [
+    "/equipment/bt41hrt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "41.54 m",
+    "Platform Height": "39.54 m",
+    "Horizontal Reach": "23.50 m",
+    "Capacity": "300 kg",
+    "Weight": "21060 kg"
+   },
+   "workingHeightM": 41.54
+  },
+  {
+   "id": "883",
+   "name": "BT41RT",
+   "slug": "bt41rt",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt41rt.webp",
+   "gallery": [
+    "/equipment/bt41rt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "41.54 m",
+    "Platform Height": "39.54 m",
+    "Horizontal Reach": "23.50 m",
+    "Capacity": "300 kg",
+    "Weight": "21060 kg"
+   },
+   "workingHeightM": 41.54
+  },
+  {
+   "id": "7326",
+   "name": "BA41ERT",
+   "slug": "ba41ert",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba41ert.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "41.08 m",
+    "Platform Height": "39.08 m",
+    "Capacity": "272 kg",
+    "Weight": "23750 kg"
+   },
+   "workingHeightM": 41.08
+  },
+  {
+   "id": "7363",
+   "name": "BA41HRT",
+   "slug": "ba41hrt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba41hrt.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "41.08 m",
+    "Platform Height": "39.08 m",
+    "Capacity": "272 kg",
+    "Weight": "23750 kg"
+   },
+   "workingHeightM": 41.08
+  },
+  {
+   "id": "7318",
+   "name": "BA41RT",
+   "slug": "ba41rt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba41rt.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "41.08 m",
+    "Platform Height": "39.08 m",
+    "Capacity": "272 kg",
+    "Weight": "23700 kg"
+   },
+   "workingHeightM": 41.08
+  },
+  {
+   "id": "903",
+   "name": "BT36ERT",
+   "slug": "bt36ert",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt36ert.webp",
+   "gallery": [
+    "/equipment/bt36ert-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "36.23 m",
+    "Platform Height": "34.23 m",
+    "Horizontal Reach": "23.00 m",
+    "Capacity": "300 kg",
+    "Weight": "19610 kg"
+   },
+   "workingHeightM": 36.23
+  },
+  {
+   "id": "908",
+   "name": "BT36HRT",
+   "slug": "bt36hrt",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt36hrt.webp",
+   "gallery": [
+    "/equipment/bt36hrt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "36.23 m",
+    "Platform Height": "34.23 m",
+    "Horizontal Reach": "23.00 m",
+    "Capacity": "300 kg",
+    "Weight": "19610 kg"
+   },
+   "workingHeightM": 36.23
+  },
+  {
+   "id": "899",
+   "name": "BT36RT",
+   "slug": "bt36rt",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt36rt.webp",
+   "gallery": [
+    "/equipment/bt36rt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "36.23 m",
+    "Platform Height": "34.23 m",
+    "Horizontal Reach": "23.00 m",
+    "Capacity": "300 kg",
+    "Weight": "19610 kg"
+   },
+   "workingHeightM": 36.23
+  },
+  {
+   "id": "7380",
+   "name": "BA36ERT",
+   "slug": "ba36ert",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba36ert.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "36.20 m",
+    "Platform Height": "34.20 m",
+    "Capacity": "272 kg",
+    "Weight": "22050 kg"
+   },
+   "workingHeightM": 36.2
+  },
+  {
+   "id": "7388",
+   "name": "BA36HRT",
+   "slug": "ba36hrt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba36hrt.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "36.20 m",
+    "Platform Height": "34.20 m",
+    "Capacity": "272 kg",
+    "Weight": "22050 kg"
+   },
+   "workingHeightM": 36.2
+  },
+  {
+   "id": "7373",
+   "name": "BA36RT",
+   "slug": "ba36rt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba36rt.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "36.20 m",
+    "Platform Height": "34.20 m",
+    "Capacity": "272 kg",
+    "Weight": "22000 kg"
+   },
+   "workingHeightM": 36.2
+  },
+  {
+   "id": "922",
+   "name": "BT34BERT",
+   "slug": "bt34bert",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt34bert.webp",
+   "gallery": [
+    "/equipment/bt34bert-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "34.46 m",
+    "Platform Height": "32.46 m",
+    "Horizontal Reach": "21.25 m",
+    "Capacity": "300 kg",
+    "Weight": "19290 kg"
+   },
+   "workingHeightM": 34.46
+  },
+  {
+   "id": "928",
+   "name": "BT34BHRT",
+   "slug": "bt34bhrt",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt34bhrt.webp",
+   "gallery": [
+    "/equipment/bt34bhrt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "34.46 m",
+    "Platform Height": "32.46 m",
+    "Horizontal Reach": "21.25 m",
+    "Capacity": "300 kg",
+    "Weight": "19290 kg"
+   },
+   "workingHeightM": 34.46
+  },
+  {
+   "id": "916",
+   "name": "BT34BRT",
+   "slug": "bt34brt",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt34brt.webp",
+   "gallery": [
+    "/equipment/bt34brt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "34.46 m",
+    "Platform Height": "32.46 m",
+    "Horizontal Reach": "21.25 m",
+    "Capacity": "300 kg",
+    "Weight": "19290 kg"
+   },
+   "workingHeightM": 34.46
+  },
+  {
+   "id": "918",
+   "name": "BT34ERT",
+   "slug": "bt34ert",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt34ert.webp",
+   "gallery": [
+    "/equipment/bt34ert-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "34.14 m",
+    "Platform Height": "32.14 m",
+    "Horizontal Reach": "21.00 m",
+    "Capacity": "300 kg",
+    "Weight": "19150 kg"
+   },
+   "workingHeightM": 34.14
+  },
+  {
+   "id": "924",
+   "name": "BT34HRT",
+   "slug": "bt34hrt",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt34hrt.webp",
+   "gallery": [
+    "/equipment/bt34hrt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "34.14 m",
+    "Platform Height": "32.14 m",
+    "Horizontal Reach": "21.00 m",
+    "Capacity": "300 kg",
+    "Weight": "19150 kg"
+   },
+   "workingHeightM": 34.14
+  },
+  {
+   "id": "912",
+   "name": "BT34RT",
+   "slug": "bt34rt",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt34rt.webp",
+   "gallery": [
+    "/equipment/bt34rt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "34.14 m",
+    "Platform Height": "32.14 m",
+    "Horizontal Reach": "21.00 m",
+    "Capacity": "300 kg",
+    "Weight": "19150 kg"
+   },
+   "workingHeightM": 34.14
+  },
+  {
+   "id": "9299",
+   "name": "BM32M",
+   "slug": "bm32m",
+   "categories": [
+    "Telescopic Boom Lifts",
+    "Differentiated Range"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bm32m.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "32.40 m",
+    "Platform Height": "30.40 m",
+    "Capacity": "454 kg",
+    "Weight": "23300 kg"
+   },
+   "workingHeightM": 32.4
+  },
+  {
+   "id": "944",
+   "name": "BT30SERT",
+   "slug": "bt30sert-telescopic-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt30sert-telescopic-jib.webp",
+   "gallery": [
+    "/equipment/bt30sert-telescopic-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "30.30 m",
+    "Platform Height": "28.30 m",
+    "Horizontal Reach": "22.40 m",
+    "Capacity": "300 kg",
+    "Weight": "18900 kg"
+   },
+   "workingHeightM": 30.3
+  },
+  {
+   "id": "952",
+   "name": "BT30SHRT",
+   "slug": "bt30shrt-telescopic-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt30shrt-telescopic-jib.webp",
+   "gallery": [
+    "/equipment/bt30shrt-telescopic-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "30.30 m",
+    "Platform Height": "28.30 m",
+    "Horizontal Reach": "22.40 m",
+    "Capacity": "300 kg",
+    "Weight": "18900 kg"
+   },
+   "workingHeightM": 30.3
+  },
+  {
+   "id": "936",
+   "name": "BT30SRT",
+   "slug": "bt30srt-telescopic-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt30srt-telescopic-jib.webp",
+   "gallery": [
+    "/equipment/bt30srt-telescopic-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "30.30 m",
+    "Platform Height": "28.30 m",
+    "Horizontal Reach": "22.40 m",
+    "Capacity": "300 kg",
+    "Weight": "18900 kg"
+   },
+   "workingHeightM": 30.3
+  },
+  {
+   "id": "940",
+   "name": "BT30ERT",
+   "slug": "bt30ert-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt30ert-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt30ert-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "30.20 m",
+    "Platform Height": "28.20 m",
+    "Horizontal Reach": "22.40 m",
+    "Capacity": "300 kg",
+    "Weight": "18900 kg"
+   },
+   "workingHeightM": 30.2
+  },
+  {
+   "id": "948",
+   "name": "BT30HRT",
+   "slug": "bt30hrt-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt30hrt-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt30hrt-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "30.20 m",
+    "Platform Height": "28.20 m",
+    "Horizontal Reach": "22.40 m",
+    "Capacity": "300 kg",
+    "Weight": "18900 kg"
+   },
+   "workingHeightM": 30.2
+  },
+  {
+   "id": "930",
+   "name": "BT30RT",
+   "slug": "bt30rt-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt30rt-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt30rt-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "30.20 m",
+    "Platform Height": "28.20 m",
+    "Horizontal Reach": "22.40 m",
+    "Capacity": "300 kg",
+    "Weight": "18900 kg"
+   },
+   "workingHeightM": 30.2
+  },
+  {
+   "id": "969",
+   "name": "BT28ERT",
+   "slug": "bt28ert-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt28ert-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt28ert-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.60 m",
+    "Platform Height": "26.60 m",
+    "Horizontal Reach": "21.30 m",
+    "Capacity": "454 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.6
+  },
+  {
+   "id": "982",
+   "name": "BT28HRT",
+   "slug": "bt28hrt-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt28hrt-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt28hrt-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.60 m",
+    "Platform Height": "26.60 m",
+    "Horizontal Reach": "21.30 m",
+    "Capacity": "454 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.6
+  },
+  {
+   "id": "956",
+   "name": "BT28RT",
+   "slug": "bt28rt-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt28rt-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt28rt-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.60 m",
+    "Platform Height": "26.60 m",
+    "Horizontal Reach": "21.30 m",
+    "Capacity": "454 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.6
+  },
+  {
+   "id": "973",
+   "name": "BT28BERT",
+   "slug": "bt28bert-barb-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt28bert-barb-jib.webp",
+   "gallery": [
+    "/equipment/bt28bert-barb-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.50 m",
+    "Platform Height": "26.50 m",
+    "Horizontal Reach": "21.20 m",
+    "Capacity": "454 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.5
+  },
+  {
+   "id": "986",
+   "name": "BT28BHRT",
+   "slug": "bt28bhrt-barb-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt28bhrt-barb-jib.webp",
+   "gallery": [
+    "/equipment/bt28bhrt-barb-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.50 m",
+    "Platform Height": "26.50 m",
+    "Horizontal Reach": "21.20 m",
+    "Capacity": "454 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.5
+  },
+  {
+   "id": "960",
+   "name": "BT28BRT",
+   "slug": "bt28brt-barb-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt28brt-barb-jib.webp",
+   "gallery": [
+    "/equipment/bt28brt-barb-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.50 m",
+    "Platform Height": "26.50 m",
+    "Horizontal Reach": "21.20 m",
+    "Capacity": "454 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.5
+  },
+  {
+   "id": "779",
+   "name": "BA28BERT",
+   "slug": "ba28bert",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba28bert.webp",
+   "gallery": [
+    "/equipment/ba28bert-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.15 m",
+    "Platform Height": "26.15 m",
+    "Horizontal Reach": "18.44 m",
+    "Capacity": "250 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.15
+  },
+  {
+   "id": "782",
+   "name": "BA28BHRT",
+   "slug": "ba28bhrt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba28bhrt.webp",
+   "gallery": [
+    "/equipment/ba28bhrt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.15 m",
+    "Platform Height": "26.15 m",
+    "Horizontal Reach": "18.44 m",
+    "Capacity": "250 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.15
+  },
+  {
+   "id": "776",
+   "name": "BA28BRT",
+   "slug": "ba28brt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba28brt.webp",
+   "gallery": [
+    "/equipment/ba28brt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.15 m",
+    "Platform Height": "26.15 m",
+    "Horizontal Reach": "18.44 m",
+    "Capacity": "250 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.15
+  },
+  {
+   "id": "301",
+   "name": "BA28ERT",
+   "slug": "ba28ert",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba28ert.webp",
+   "gallery": [
+    "/equipment/ba28ert-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.10 m",
+    "Platform Height": "26.10 m",
+    "Horizontal Reach": "18.80 m",
+    "Capacity": "250 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.1
+  },
+  {
+   "id": "303",
+   "name": "BA28HRT",
+   "slug": "ba28hrt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba28hrt.webp",
+   "gallery": [
+    "/equipment/ba28hrt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.10 m",
+    "Platform Height": "26.10 m",
+    "Horizontal Reach": "18.80 m",
+    "Capacity": "250 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.1
+  },
+  {
+   "id": "292",
+   "name": "BA28RT",
+   "slug": "ba28rt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba28rt.webp",
+   "gallery": [
+    "/equipment/ba28rt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.10 m",
+    "Platform Height": "26.10 m",
+    "Horizontal Reach": "18.80 m",
+    "Capacity": "250 kg",
+    "Weight": "18400 kg"
+   },
+   "workingHeightM": 28.1
+  },
+  {
+   "id": "977",
+   "name": "BT28SERT",
+   "slug": "bt28sert-telescopic-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt28sert-telescopic-jib.webp",
+   "gallery": [
+    "/equipment/bt28sert-telescopic-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.10 m",
+    "Platform Height": "26.10 m",
+    "Horizontal Reach": "20.80 m",
+    "Capacity": "454 kg",
+    "Weight": "18500 kg"
+   },
+   "workingHeightM": 28.1
+  },
+  {
+   "id": "990",
+   "name": "BT28SHRT",
+   "slug": "bt28shrt-telescopic-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt28shrt-telescopic-jib.webp",
+   "gallery": [
+    "/equipment/bt28shrt-telescopic-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.10 m",
+    "Platform Height": "26.10 m",
+    "Horizontal Reach": "20.80 m",
+    "Capacity": "454 kg",
+    "Weight": "18500 kg"
+   },
+   "workingHeightM": 28.1
+  },
+  {
+   "id": "965",
+   "name": "BT28SRT",
+   "slug": "bt28srt-telescopic-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt28srt-telescopic-jib.webp",
+   "gallery": [
+    "/equipment/bt28srt-telescopic-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.10 m",
+    "Platform Height": "26.10 m",
+    "Horizontal Reach": "20.80 m",
+    "Capacity": "454 kg",
+    "Weight": "18500 kg"
+   },
+   "workingHeightM": 28.1
+  },
+  {
+   "id": "1028",
+   "name": "BT26SHRT",
+   "slug": "bt26shrt-telescopic-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt26shrt-telescopic-jib.webp",
+   "gallery": [
+    "/equipment/bt26shrt-telescopic-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "26.70 m",
+    "Platform Height": "24.70 m",
+    "Horizontal Reach": "19.20 m",
+    "Capacity": "454 kg",
+    "Weight": "16800 kg"
+   },
+   "workingHeightM": 26.7
+  },
+  {
+   "id": "1002",
+   "name": "BT26SRT",
+   "slug": "bt26srt-telescopic-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt26srt-telescopic-jib.webp",
+   "gallery": [
+    "/equipment/bt26srt-telescopic-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "26.70 m",
+    "Platform Height": "24.70 m",
+    "Horizontal Reach": "19.20 m",
+    "Capacity": "454 kg",
+    "Weight": "16800 kg"
+   },
+   "workingHeightM": 26.7
+  },
+  {
+   "id": "1010",
+   "name": "BT26BERT",
+   "slug": "bt26bert-barb-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt26bert-barb-jib.webp",
+   "gallery": [
+    "/equipment/bt26bert-barb-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "26.30 m",
+    "Platform Height": "24.30 m",
+    "Horizontal Reach": "18.80 m",
+    "Capacity": "454 kg",
+    "Weight": "16090 kg"
+   },
+   "workingHeightM": 26.3
+  },
+  {
+   "id": "1022",
+   "name": "BT26BHRT",
+   "slug": "bt26bhrt-barb-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt26bhrt-barb-jib.webp",
+   "gallery": [
+    "/equipment/bt26bhrt-barb-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "26.30 m",
+    "Platform Height": "24.30 m",
+    "Horizontal Reach": "18.80 m",
+    "Capacity": "454 kg",
+    "Weight": "16090 kg"
+   },
+   "workingHeightM": 26.3
+  },
+  {
+   "id": "998",
+   "name": "BT26BRT",
+   "slug": "bt26brt-barb-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt26brt-barb-jib.webp",
+   "gallery": [
+    "/equipment/bt26brt-barb-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "26.30 m",
+    "Platform Height": "24.30 m",
+    "Horizontal Reach": "18.80 m",
+    "Capacity": "454 kg",
+    "Weight": "16090 kg"
+   },
+   "workingHeightM": 26.3
+  },
+  {
+   "id": "1006",
+   "name": "BT26ERT",
+   "slug": "bt26ert-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt26ert-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt26ert-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "26.30 m",
+    "Platform Height": "24.30 m",
+    "Horizontal Reach": "18.90 m",
+    "Capacity": "454 kg",
+    "Weight": "16090 kg"
+   },
+   "workingHeightM": 26.3
+  },
+  {
+   "id": "1018",
+   "name": "BT26HRT",
+   "slug": "bt26hrt-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt26hrt-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt26hrt-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "26.30 m",
+    "Platform Height": "24.30 m",
+    "Horizontal Reach": "18.90 m",
+    "Capacity": "454 kg",
+    "Weight": "16090 kg"
+   },
+   "workingHeightM": 26.3
+  },
+  {
+   "id": "994",
+   "name": "BT26RT",
+   "slug": "bt26rt-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt26rt-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt26rt-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "26.30 m",
+    "Platform Height": "24.30 m",
+    "Horizontal Reach": "18.90 m",
+    "Capacity": "454 kg",
+    "Weight": "16090 kg"
+   },
+   "workingHeightM": 26.3
+  },
+  {
+   "id": "1014",
+   "name": "BT26SERT",
+   "slug": "bt26sert-telescopic-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt26sert-telescopic-jib.webp",
+   "gallery": [
+    "/equipment/bt26sert-telescopic-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "26.30 m",
+    "Platform Height": "24.30 m",
+    "Horizontal Reach": "18.80 m",
+    "Capacity": "454 kg",
+    "Weight": "16090 kg"
+   },
+   "workingHeightM": 26.3
+  },
+  {
+   "id": "803",
+   "name": "BA24BERT",
+   "slug": "ba24bert",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba24bert.webp",
+   "gallery": [
+    "/equipment/ba24bert-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.82 m",
+    "Platform Height": "22.82 m",
+    "Horizontal Reach": "17 m",
+    "Capacity": "300 kg",
+    "Weight": "17200 kg"
+   },
+   "workingHeightM": 24.82
+  },
+  {
+   "id": "809",
+   "name": "BA24BHRT",
+   "slug": "ba24bhrt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba24bhrt.webp",
+   "gallery": [
+    "/equipment/ba24bhrt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.82 m",
+    "Platform Height": "22.82 m",
+    "Horizontal Reach": "17 m",
+    "Capacity": "300 kg",
+    "Weight": "17200 kg"
+   },
+   "workingHeightM": 24.82
+  },
+  {
+   "id": "797",
+   "name": "BA24BRT",
+   "slug": "ba24brt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba24brt.png",
+   "gallery": [
+    "/equipment/ba24brt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.82 m",
+    "Platform Height": "22.82 m",
+    "Horizontal Reach": "17 m",
+    "Capacity": "300 kg",
+    "Weight": "17200 kg"
+   },
+   "workingHeightM": 24.82
+  },
+  {
+   "id": "1044",
+   "name": "BT24BERT",
+   "slug": "bt24bert-barb-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt24bert-barb-jib.webp",
+   "gallery": [
+    "/equipment/bt24bert-barb-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.80 m",
+    "Platform Height": "22.80 m",
+    "Horizontal Reach": "17.20 m",
+    "Capacity": "454 kg",
+    "Weight": "14300 kg"
+   },
+   "workingHeightM": 24.8
+  },
+  {
+   "id": "1052",
+   "name": "BT24BHRT",
+   "slug": "bt24bhrt-barb-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt24bhrt-barb-jib.webp",
+   "gallery": [
+    "/equipment/bt24bhrt-barb-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.80 m",
+    "Platform Height": "22.80 m",
+    "Horizontal Reach": "17.30 m",
+    "Capacity": "454 kg",
+    "Weight": "14300 kg"
+   },
+   "workingHeightM": 24.8
+  },
+  {
+   "id": "1036",
+   "name": "BT24BRT",
+   "slug": "bt24brt-barb-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt24brt-barb-jib.webp",
+   "gallery": [
+    "/equipment/bt24brt-barb-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.80 m",
+    "Platform Height": "22.80 m",
+    "Horizontal Reach": "17.30 m",
+    "Capacity": "454 kg",
+    "Weight": "14300 kg"
+   },
+   "workingHeightM": 24.8
+  },
+  {
+   "id": "1040",
+   "name": "BT24ERT",
+   "slug": "bt24ert-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt24ert-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt24ert-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.80 m",
+    "Platform Height": "22.80 m",
+    "Horizontal Reach": "17.30 m",
+    "Capacity": "454 kg",
+    "Weight": "14300 kg"
+   },
+   "workingHeightM": 24.8
+  },
+  {
+   "id": "1048",
+   "name": "BT24HRT",
+   "slug": "bt24hrt-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt24hrt-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt24hrt-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.80 m",
+    "Platform Height": "22.80 m",
+    "Horizontal Reach": "17.30 m",
+    "Capacity": "454 kg",
+    "Weight": "14300 kg"
+   },
+   "workingHeightM": 24.8
+  },
+  {
+   "id": "1032",
+   "name": "BT24RT",
+   "slug": "bt24rt-regular-jib",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt24rt-regular-jib.webp",
+   "gallery": [
+    "/equipment/bt24rt-regular-jib-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.80 m",
+    "Platform Height": "22.80 m",
+    "Horizontal Reach": "17.30 m",
+    "Capacity": "454 kg",
+    "Weight": "14300 kg"
+   },
+   "workingHeightM": 24.8
+  },
+  {
+   "id": "799",
+   "name": "BA24ERT",
+   "slug": "ba24ert",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba24ert.webp",
+   "gallery": [
+    "/equipment/ba24ert-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.30 m",
+    "Platform Height": "22.30 m",
+    "Horizontal Reach": "16.50 m",
+    "Capacity": "300 kg",
+    "Weight": "17200 kg"
+   },
+   "workingHeightM": 24.3
+  },
+  {
+   "id": "805",
+   "name": "BA24HRT",
+   "slug": "ba24hrt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba24hrt.webp",
+   "gallery": [
+    "/equipment/ba24hrt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.30 m",
+    "Platform Height": "22.30 m",
+    "Horizontal Reach": "16.50 m",
+    "Capacity": "300 kg",
+    "Weight": "17200 kg"
+   },
+   "workingHeightM": 24.3
+  },
+  {
+   "id": "793",
+   "name": "BA24RT",
+   "slug": "ba24rt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba24rt.webp",
+   "gallery": [
+    "/equipment/ba24rt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "24.30 m",
+    "Platform Height": "22.30 m",
+    "Horizontal Reach": "16.50 m",
+    "Capacity": "300 kg",
+    "Weight": "17200 kg"
+   },
+   "workingHeightM": 24.3
+  },
+  {
+   "id": "815",
+   "name": "BA22CERT2",
+   "slug": "ba22cert2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba22cert2.webp",
+   "gallery": [
+    "/equipment/ba22cert2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "22.04 m",
+    "Platform Height": "20.04 m",
+    "Horizontal Reach": "12.57 m",
+    "Capacity": "320 kg",
+    "Weight": "10150 kg"
+   },
+   "workingHeightM": 22.04
+  },
+  {
+   "id": "819",
+   "name": "BA22CHRT2",
+   "slug": "ba22chrt2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba22chrt2.webp",
+   "gallery": [
+    "/equipment/ba22chrt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "22.04 m",
+    "Platform Height": "20.04 m",
+    "Horizontal Reach": "12.57 m",
+    "Capacity": "320 kg",
+    "Weight": "10150 kg"
+   },
+   "workingHeightM": 22.04
+  },
+  {
+   "id": "811",
+   "name": "BA22CRT2",
+   "slug": "ba22crt2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba22crt2.webp",
+   "gallery": [
+    "/equipment/ba22crt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "22.04 m",
+    "Platform Height": "20.04 m",
+    "Horizontal Reach": "12.57 m",
+    "Capacity": "320 kg",
+    "Weight": "9700 kg"
+   },
+   "workingHeightM": 22.04
+  },
+  {
+   "id": "1118",
+   "name": "GTBZ20SU - Ultra Deck",
+   "slug": "gtbz20su-ultra-deck",
+   "categories": [
+    "Telescopic Boom Lifts",
+    "Differentiated Range"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/gtbz20su-ultra-deck.webp",
+   "gallery": [
+    "/equipment/gtbz20su-ultra-deck-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "20.30 m",
+    "Platform Height": "18.30 m",
+    "Capacity": "1350 kg",
+    "Weight": "18000 kg"
+   },
+   "workingHeightM": 20.3
+  },
+  {
+   "id": "1084",
+   "name": "BT20CERT2",
+   "slug": "bt20cert2",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt20cert2.webp",
+   "gallery": [
+    "/equipment/bt20cert2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "20.23 m",
+    "Platform Height": "18.23 m",
+    "Horizontal Reach": "12.76 m",
+    "Capacity": "320 kg",
+    "Weight": "8600 kg"
+   },
+   "workingHeightM": 20.23
+  },
+  {
+   "id": "1088",
+   "name": "BT20CHRT2",
+   "slug": "bt20chrt2",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt20chrt2.webp",
+   "gallery": [
+    "/equipment/bt20chrt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "20.23 m",
+    "Platform Height": "18.23 m",
+    "Horizontal Reach": "12.76 m",
+    "Capacity": "320 kg",
+    "Weight": "8600 kg"
+   },
+   "workingHeightM": 20.23
+  },
+  {
+   "id": "1080",
+   "name": "BT20CRT2",
+   "slug": "bt20crt2",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt20crt2.webp",
+   "gallery": [
+    "/equipment/bt20crt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "20.23 m",
+    "Platform Height": "18.23 m",
+    "Horizontal Reach": "12.76 m",
+    "Capacity": "320 kg",
+    "Weight": "8150 kg"
+   },
+   "workingHeightM": 20.23
+  },
+  {
+   "id": "827",
+   "name": "BA20CERT2",
+   "slug": "ba20cert2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba20cert2.webp",
+   "gallery": [
+    "/equipment/ba20cert2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "20.15 m",
+    "Platform Height": "18.15 m",
+    "Horizontal Reach": "10.53 m",
+    "Capacity": "320 kg",
+    "Weight": "8900 kg"
+   },
+   "workingHeightM": 20.15
+  },
+  {
+   "id": "831",
+   "name": "BA20CHRT2",
+   "slug": "ba20chrt2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba20chrt2.webp",
+   "gallery": [
+    "/equipment/ba20chrt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "20.15 m",
+    "Platform Height": "18.15 m",
+    "Horizontal Reach": "10.53 m",
+    "Capacity": "320 kg",
+    "Weight": "8900 kg"
+   },
+   "workingHeightM": 20.15
+  },
+  {
+   "id": "823",
+   "name": "BA20CRT2",
+   "slug": "ba20crt2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba20crt2.webp",
+   "gallery": [
+    "/equipment/ba20crt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "20.15 m",
+    "Platform Height": "18.15 m",
+    "Horizontal Reach": "10.53 m",
+    "Capacity": "320 kg",
+    "Weight": "8450 kg"
+   },
+   "workingHeightM": 20.15
+  },
+  {
+   "id": "1096",
+   "name": "BT18CERT2",
+   "slug": "bt18cert2",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt18cert2.webp",
+   "gallery": [
+    "/equipment/bt18cert2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "18.26 m",
+    "Platform Height": "16.26 m",
+    "Horizontal Reach": "10.72 m",
+    "Capacity": "320 kg",
+    "Weight": "7750 kg"
+   },
+   "workingHeightM": 18.26
+  },
+  {
+   "id": "1100",
+   "name": "BT18CHRT2",
+   "slug": "bt18chrt2",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt18chrt2.webp",
+   "gallery": [
+    "/equipment/bt18chrt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "18.26 m",
+    "Platform Height": "16.26 m",
+    "Horizontal Reach": "10.72 m",
+    "Capacity": "320 kg",
+    "Weight": "7750 kg"
+   },
+   "workingHeightM": 18.26
+  },
+  {
+   "id": "1092",
+   "name": "BT18CRT2",
+   "slug": "bt18crt2",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt18crt2.webp",
+   "gallery": [
+    "/equipment/bt18crt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "18.26 m",
+    "Platform Height": "16.26 m",
+    "Horizontal Reach": "10.72 m",
+    "Capacity": "320 kg",
+    "Weight": "7300 kg"
+   },
+   "workingHeightM": 18.26
+  },
+  {
+   "id": "840",
+   "name": "BA18CERT2",
+   "slug": "ba18cert2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba18cert2.webp",
+   "gallery": [
+    "/equipment/ba18cert2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "18.11 m",
+    "Platform Height": "16.11 m",
+    "Horizontal Reach": "8.85 m",
+    "Capacity": "320 kg",
+    "Weight": "8650 kg"
+   },
+   "workingHeightM": 18.11
+  },
+  {
+   "id": "844",
+   "name": "BA18CHRT2",
+   "slug": "ba18chrt2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba18chrt2.webp",
+   "gallery": [
+    "/equipment/ba18chrt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "18.11 m",
+    "Platform Height": "16.11 m",
+    "Horizontal Reach": "8.85 m",
+    "Capacity": "320 kg",
+    "Weight": "8650 kg"
+   },
+   "workingHeightM": 18.11
+  },
+  {
+   "id": "835",
+   "name": "BA18CRT2",
+   "slug": "ba18crt2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba18crt2.webp",
+   "gallery": [
+    "/equipment/ba18crt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "18.11 m",
+    "Platform Height": "16.11 m",
+    "Horizontal Reach": "8.85 m",
+    "Capacity": "320 kg",
+    "Weight": "8200 kg"
+   },
+   "workingHeightM": 18.11
+  },
+  {
+   "id": "848",
+   "name": "BA18NE",
+   "slug": "ba18ne",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba18ne.webp",
+   "gallery": [
+    "/equipment/ba18ne-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "18.00 m",
+    "Platform Height": "16.00 m",
+    "Horizontal Reach": "7.70 m",
+    "Capacity": "230 kg",
+    "Weight": "7420 kg"
+   },
+   "workingHeightM": 18.0
+  },
+  {
+   "id": "8060",
+   "name": "BA17NE",
+   "slug": "ba17ne",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba17ne.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "17.00 m",
+    "Platform Height": "15.00 m",
+    "Horizontal Reach": "9.10 m",
+    "Capacity": "227 kg",
+    "Weight": "7950 kg"
+   },
+   "workingHeightM": 17.0
+  },
+  {
+   "id": "860",
+   "name": "BA16NE",
+   "slug": "ba16ne",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba16ne.webp",
+   "gallery": [
+    "/equipment/ba16ne-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "16.50 m",
+    "Platform Height": "14.50 m",
+    "Horizontal Reach": "6.55 m",
+    "Capacity": "230 kg",
+    "Weight": "6700 kg"
+   },
+   "workingHeightM": 16.5
+  },
+  {
+   "id": "1108",
+   "name": "BT16CERT2",
+   "slug": "bt16cert2",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt16cert2.webp",
+   "gallery": [
+    "/equipment/bt16cert2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "16.33 m",
+    "Platform Height": "14.33 m",
+    "Horizontal Reach": "8.72 m",
+    "Capacity": "320 kg",
+    "Weight": "7150 kg"
+   },
+   "workingHeightM": 16.33
+  },
+  {
+   "id": "1112",
+   "name": "BT16CHRT2",
+   "slug": "bt16chrt2",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/bt16chrt2.webp",
+   "gallery": [
+    "/equipment/bt16chrt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "16.33 m",
+    "Platform Height": "14.33 m",
+    "Horizontal Reach": "8.72 m",
+    "Capacity": "320 kg",
+    "Weight": "7150 kg"
+   },
+   "workingHeightM": 16.33
+  },
+  {
+   "id": "1104",
+   "name": "BT16CRT2",
+   "slug": "bt16crt2",
+   "categories": [
+    "Telescopic Boom Lifts"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/bt16crt2.webp",
+   "gallery": [
+    "/equipment/bt16crt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "16.33 m",
+    "Platform Height": "14.33 m",
+    "Horizontal Reach": "8.72 m",
+    "Capacity": "320 kg",
+    "Weight": "6700 kg"
+   },
+   "workingHeightM": 16.33
+  },
+  {
+   "id": "856",
+   "name": "BA16CERT2",
+   "slug": "ba16cert2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba16cert2.webp",
+   "gallery": [
+    "/equipment/ba16cert2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "16.27 m",
+    "Platform Height": "14.27 m",
+    "Horizontal Reach": "8.09 m",
+    "Capacity": "320 kg",
+    "Weight": "8300 kg"
+   },
+   "workingHeightM": 16.27
+  },
+  {
+   "id": "864",
+   "name": "BA16CHRT2",
+   "slug": "ba16chrt2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Hybrid",
+   "image": "/equipment/ba16chrt2.webp",
+   "gallery": [
+    "/equipment/ba16chrt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "16.27 m",
+    "Platform Height": "14.27 m",
+    "Horizontal Reach": "8.09 m",
+    "Capacity": "320 kg",
+    "Weight": "8300 kg"
+   },
+   "workingHeightM": 16.27
+  },
+  {
+   "id": "852",
+   "name": "BA16CRT2",
+   "slug": "ba16crt2",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba16crt2.webp",
+   "gallery": [
+    "/equipment/ba16crt2-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "16.27 m",
+    "Platform Height": "14.27 m",
+    "Horizontal Reach": "8.09 m",
+    "Capacity": "320 kg",
+    "Weight": "7850 kg"
+   },
+   "workingHeightM": 16.27
+  },
+  {
+   "id": "870",
+   "name": "BA16RR",
+   "slug": "ba16rr",
+   "categories": [
+    "Articulated Boom Lifts",
+    "Differentiated Range"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba16rr.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "16.00 m",
+    "Platform Height": "14.00 m",
+    "Capacity": "400 kg",
+    "Weight": "13120 kg"
+   },
+   "workingHeightM": 16.0
+  },
+  {
+   "id": "1120",
+   "name": "GTBZ16SU",
+   "slug": "gtbz16su",
+   "categories": [
+    "Telescopic Boom Lifts",
+    "Differentiated Range"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/gtbz16su.webp",
+   "gallery": [
+    "/equipment/gtbz16su-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "15.60 m",
+    "Platform Height": "13.60 m",
+    "Capacity": "1800 kg",
+    "Weight": "13350 kg"
+   },
+   "workingHeightM": 15.6
+  },
+  {
+   "id": "8050",
+   "name": "BA15NE",
+   "slug": "ba15ne",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba15ne.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "15.50 m",
+    "Platform Height": "13.50 m",
+    "Horizontal Reach": "9.10 m",
+    "Capacity": "227 kg",
+    "Weight": "7580 kg"
+   },
+   "workingHeightM": 15.5
+  },
+  {
+   "id": "8068",
+   "name": "BA12RT",
+   "slug": "ba12rt",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Diesel",
+   "image": "/equipment/ba12rt.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "12.54 m",
+    "Platform Height": "10.54 m",
+    "Capacity": "272 kg",
+    "Weight": "5400 kg"
+   },
+   "workingHeightM": 12.54
+  },
+  {
+   "id": "8032",
+   "name": "BA12NE",
+   "slug": "ba12ne",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba12ne.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "11.80 m",
+    "Platform Height": "9.80 m",
+    "Horizontal Reach": "6.50 m",
+    "Capacity": "227 kg",
+    "Weight": "7080 kg"
+   },
+   "workingHeightM": 11.8
+  },
+  {
+   "id": "868",
+   "name": "BA11NE",
+   "slug": "ba11ne",
+   "categories": [
+    "Articulated Boom Lifts"
+   ],
+   "category": "Articulated Boom Lifts",
+   "categorySlug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/ba11ne.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "10.80 m",
+    "Platform Height": "8.80 m",
+    "Horizontal Reach": "6.35 m",
+    "Capacity": "227 kg",
+    "Weight": "6660 kg"
+   },
+   "workingHeightM": 10.8
+  },
+  {
+   "id": "1116",
+   "name": "BT2615ERTGS - Glass Attachment",
+   "slug": "bt2615ertgs-glass-attachment",
+   "categories": [
+    "Telescopic Boom Lifts",
+    "Differentiated Range"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/bt2615ertgs-glass-attachment.webp",
+   "gallery": [],
+   "specs": {
+    "Capacity": "1500 kg",
+    "Weight": "19500 kg"
+   },
+   "workingHeightM": null
+  },
+  {
+   "id": "9315",
+   "name": "DCP1726",
+   "slug": "dcp1726",
+   "categories": [
+    "Telescopic Boom Lifts",
+    "Differentiated Range"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/dcp1726.webp",
+   "gallery": [],
+   "specs": {
+    "Weight": "4020 kg"
+   },
+   "workingHeightM": null
+  },
+  {
+   "id": "9329",
+   "name": "DH0825ERT",
+   "slug": "dh0825ert",
+   "categories": [
+    "Telescopic Boom Lifts",
+    "Differentiated Range"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/dh0825ert.webp",
+   "gallery": [],
+   "specs": {
+    "Weight": "10500 kg"
+   },
+   "workingHeightM": null
+  },
+  {
+   "id": "9340",
+   "name": "DH1025RR-E",
+   "slug": "dh1025rr-e",
+   "categories": [
+    "Telescopic Boom Lifts",
+    "Differentiated Range"
+   ],
+   "category": "Telescopic Boom Lifts",
+   "categorySlug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "power": "Electric",
+   "image": "/equipment/dh1025rr-e.webp",
+   "gallery": [],
+   "specs": {
+    "Weight": "10950 kg"
+   },
+   "workingHeightM": null
+  },
+  {
+   "id": "1356",
+   "name": "JCPT3214DC",
+   "slug": "jcpt3214dc",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt3214dc.webp",
+   "gallery": [
+    "/equipment/jcpt3214dc-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "32.00 m",
+    "Platform Height": "30.00 m",
+    "Capacity": "750 kg",
+    "Weight": "22200 kg"
+   },
+   "workingHeightM": 32.0
+  },
+  {
+   "id": "1346",
+   "name": "JCPT3225DC",
+   "slug": "jcpt3225dc",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt3225dc.webp",
+   "gallery": [
+    "/equipment/jcpt3225dc-g1.webp",
+    "/equipment/jcpt3225dc-g2.webp",
+    "/equipment/jcpt3225dc-g3.webp",
+    "/equipment/jcpt3225dc-g4.webp"
+   ],
+   "specs": {
+    "Working Height": "32.00 m",
+    "Platform Height": "30.00 m",
+    "Capacity": "1000 kg",
+    "Weight": "23950 kg"
+   },
+   "workingHeightM": 32.0
+  },
+  {
+   "id": "1247",
+   "name": "JCPT3225RT",
+   "slug": "jcpt3225rt",
+   "categories": [
+    "Rough Terrain Scissors"
+   ],
+   "category": "Rough Terrain Scissors",
+   "categorySlug": "rough-terrain-scissors",
+   "family": "Scissor Lifts",
+   "power": "Diesel",
+   "image": "/equipment/jcpt3225rt.webp",
+   "gallery": [
+    "/equipment/jcpt3225rt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "32.00 m",
+    "Platform Height": "30.00 m",
+    "Capacity": "1000 kg",
+    "Weight": "23950 kg"
+   },
+   "workingHeightM": 32.0
+  },
+  {
+   "id": "1364",
+   "name": "JCPT2814DC",
+   "slug": "jcpt2814dc",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt2814dc.webp",
+   "gallery": [
+    "/equipment/jcpt2814dc-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.00 m",
+    "Platform Height": "26.00 m",
+    "Capacity": "750 kg",
+    "Weight": "18260 kg"
+   },
+   "workingHeightM": 28.0
+  },
+  {
+   "id": "1360",
+   "name": "JCPT2825DC",
+   "slug": "jcpt2825dc",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt2825dc.webp",
+   "gallery": [
+    "/equipment/jcpt2825dc-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.00 m",
+    "Platform Height": "26.00 m",
+    "Capacity": "1000 kg",
+    "Weight": "19750 kg"
+   },
+   "workingHeightM": 28.0
+  },
+  {
+   "id": "1251",
+   "name": "JCPT2825RT",
+   "slug": "jcpt2825rt",
+   "categories": [
+    "Rough Terrain Scissors"
+   ],
+   "category": "Rough Terrain Scissors",
+   "categorySlug": "rough-terrain-scissors",
+   "family": "Scissor Lifts",
+   "power": "Diesel",
+   "image": "/equipment/jcpt2825rt.webp",
+   "gallery": [
+    "/equipment/jcpt2825rt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "28.00 m",
+    "Platform Height": "26.00 m",
+    "Capacity": "1000 kg",
+    "Weight": "19800 kg"
+   },
+   "workingHeightM": 28.0
+  },
+  {
+   "id": "1372",
+   "name": "JCPT2212DC",
+   "slug": "jcpt2212dc",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt2212dc.webp",
+   "gallery": [
+    "/equipment/jcpt2212dc-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "22.00 m",
+    "Platform Height": "20.00 m",
+    "Capacity": "750 kg",
+    "Weight": "12350 kg"
+   },
+   "workingHeightM": 22.0
+  },
+  {
+   "id": "1368",
+   "name": "JCPT2223DC",
+   "slug": "jcpt2223dc",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt2223dc.webp",
+   "gallery": [
+    "/equipment/jcpt2223dc-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "22.00 m",
+    "Platform Height": "20.00 m",
+    "Capacity": "750 kg",
+    "Weight": "13400 kg"
+   },
+   "workingHeightM": 22.0
+  },
+  {
+   "id": "1255",
+   "name": "JCPT2223RTB",
+   "slug": "jcpt2223rtb",
+   "categories": [
+    "Rough Terrain Scissors"
+   ],
+   "category": "Rough Terrain Scissors",
+   "categorySlug": "rough-terrain-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt2223rtb.webp",
+   "gallery": [
+    "/equipment/jcpt2223rtb-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "22.00 m",
+    "Platform Height": "20.00 m",
+    "Capacity": "750 kg",
+    "Weight": "13000 kg"
+   },
+   "workingHeightM": 22.0
+  },
+  {
+   "id": "1382",
+   "name": "JCPT1912DCL",
+   "slug": "jcpt1912dcl",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1912dcl.webp",
+   "gallery": [
+    "/equipment/jcpt1912dcl-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "19.00 m",
+    "Platform Height": "17.00 m",
+    "Capacity": "500 kg",
+    "Weight": "7140 kg"
+   },
+   "workingHeightM": 19.0
+  },
+  {
+   "id": "1377",
+   "name": "JCPT1923DCL",
+   "slug": "jcpt1923dcl",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1923dcl.webp",
+   "gallery": [
+    "/equipment/jcpt1923dcl-g1.webp",
+    "/equipment/jcpt1923dcl-g2.webp"
+   ],
+   "specs": {
+    "Working Height": "19.00 m",
+    "Platform Height": "17.00 m",
+    "Capacity": "680 kg",
+    "Weight": "10870 kg"
+   },
+   "workingHeightM": 19.0
+  },
+  {
+   "id": "1259",
+   "name": "JCPT1923RTL",
+   "slug": "jcpt1923rtl",
+   "categories": [
+    "Rough Terrain Scissors"
+   ],
+   "category": "Rough Terrain Scissors",
+   "categorySlug": "rough-terrain-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1923rtl.webp",
+   "gallery": [
+    "/equipment/jcpt1923rtl-g1.webp",
+    "/equipment/jcpt1923rtl-g2.webp"
+   ],
+   "specs": {
+    "Working Height": "19.00 m",
+    "Platform Height": "17.00 m",
+    "Capacity": "680 kg",
+    "Weight": "10530 kg"
+   },
+   "workingHeightM": 19.0
+  },
+  {
+   "id": "1386",
+   "name": "JCPT1812DCL",
+   "slug": "jcpt1812dcl",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1812dcl.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "18.00 m",
+    "Platform Height": "16.00 m",
+    "Capacity": "680 kg",
+    "Weight": "9210 kg"
+   },
+   "workingHeightM": 18.0
+  },
+  {
+   "id": "1264",
+   "name": "JCPT1823RTL",
+   "slug": "jcpt1823rtl",
+   "categories": [
+    "Rough Terrain Scissors"
+   ],
+   "category": "Rough Terrain Scissors",
+   "categorySlug": "rough-terrain-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1823rtl.webp",
+   "gallery": [
+    "/equipment/jcpt1823rtl-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "18.00 m",
+    "Platform Height": "16.00 m",
+    "Capacity": "680 kg",
+    "Weight": "8560 kg"
+   },
+   "workingHeightM": 18.0
+  },
+  {
+   "id": "1388",
+   "name": "JCPT1712DCL",
+   "slug": "jcpt1712dcl",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1712dcl.webp",
+   "gallery": [
+    "/equipment/jcpt1712dcl-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "17.20 m",
+    "Platform Height": "15.20 m",
+    "Capacity": "500 kg",
+    "Weight": "6280 kg"
+   },
+   "workingHeightM": 17.2
+  },
+  {
+   "id": "1434",
+   "name": "JCPT1612AC",
+   "slug": "jcpt1612ac",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1612ac.webp",
+   "gallery": [
+    "/equipment/jcpt1612ac-g1.webp",
+    "/equipment/jcpt1612ac-g2.webp",
+    "/equipment/jcpt1612ac-g3.webp"
+   ],
+   "specs": {
+    "Working Height": "15.70 m",
+    "Platform Height": "13.70 m",
+    "Capacity": "250 kg",
+    "Weight": "3360 kg"
+   },
+   "workingHeightM": 15.7
+  },
+  {
+   "id": "1478",
+   "name": "JCPT1612HA",
+   "slug": "jcpt1612ha",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1612ha.webp",
+   "gallery": [
+    "/equipment/jcpt1612ha-g1.webp",
+    "/equipment/jcpt1612ha-g2.webp",
+    "/equipment/jcpt1612ha-g3.webp"
+   ],
+   "specs": {
+    "Working Height": "15.70 m",
+    "Platform Height": "13.70 m",
+    "Capacity": "250 kg",
+    "Weight": "3330 kg"
+   },
+   "workingHeightM": 15.7
+  },
+  {
+   "id": "1440",
+   "name": "JCPT1614AC",
+   "slug": "jcpt1614ac",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1614ac.webp",
+   "gallery": [
+    "/equipment/jcpt1614ac-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "15.70 m",
+    "Platform Height": "13.70 m",
+    "Capacity": "250 kg",
+    "Weight": "3470 kg"
+   },
+   "workingHeightM": 15.7
+  },
+  {
+   "id": "1474",
+   "name": "JCPT1614HA",
+   "slug": "jcpt1614ha",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1614ha.webp",
+   "gallery": [
+    "/equipment/jcpt1614ha-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "15.70 m",
+    "Platform Height": "13.70 m",
+    "Capacity": "250 kg",
+    "Weight": "3440 kg"
+   },
+   "workingHeightM": 15.7
+  },
+  {
+   "id": "1392",
+   "name": "JCPT1523DCB",
+   "slug": "jcpt1523dcb",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1523dcb.webp",
+   "gallery": [
+    "/equipment/jcpt1523dcb-g1.webp",
+    "/equipment/jcpt1523dcb-g2.webp",
+    "/equipment/jcpt1523dcb-g3.webp"
+   ],
+   "specs": {
+    "Working Height": "15.00 m",
+    "Platform Height": "13.00 m",
+    "Capacity": "680 kg",
+    "Weight": "7300 kg"
+   },
+   "workingHeightM": 15.0
+  },
+  {
+   "id": "1268",
+   "name": "JCPT1523RTB",
+   "slug": "jcpt1523rtb",
+   "categories": [
+    "Rough Terrain Scissors"
+   ],
+   "category": "Rough Terrain Scissors",
+   "categorySlug": "rough-terrain-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1523rtb.webp",
+   "gallery": [
+    "/equipment/jcpt1523rtb-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "15.00 m",
+    "Platform Height": "13.00 m",
+    "Capacity": "680 kg",
+    "Weight": "7000 kg"
+   },
+   "workingHeightM": 15.0
+  },
+  {
+   "id": "1398",
+   "name": "JCPT1418DC",
+   "slug": "jcpt1418dc",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1418dc.webp",
+   "gallery": [
+    "/equipment/jcpt1418dc-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "14.30 m",
+    "Platform Height": "12.30 m",
+    "Capacity": "363 kg",
+    "Weight": "5150 kg"
+   },
+   "workingHeightM": 14.3
+  },
+  {
+   "id": "1272",
+   "name": "JCPT1418RT",
+   "slug": "jcpt1418rt",
+   "categories": [
+    "Rough Terrain Scissors"
+   ],
+   "category": "Rough Terrain Scissors",
+   "categorySlug": "rough-terrain-scissors",
+   "family": "Scissor Lifts",
+   "power": "Diesel",
+   "image": "/equipment/jcpt1418rt.webp",
+   "gallery": [
+    "/equipment/jcpt1418rt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "14.30 m",
+    "Platform Height": "12.30 m",
+    "Capacity": "363 kg",
+    "Weight": "5050 kg"
+   },
+   "workingHeightM": 14.3
+  },
+  {
+   "id": "1444",
+   "name": "JCPT1412AC",
+   "slug": "jcpt1412ac",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1412ac.webp",
+   "gallery": [
+    "/equipment/jcpt1412ac-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "13.80 m",
+    "Platform Height": "11.80 m",
+    "Capacity": "320 kg",
+    "Weight": "2990 kg"
+   },
+   "workingHeightM": 13.8
+  },
+  {
+   "id": "1484",
+   "name": "JCPT1412HA",
+   "slug": "jcpt1412ha",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1412ha.webp",
+   "gallery": [
+    "/equipment/jcpt1412ha-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "13.80 m",
+    "Platform Height": "11.80 m",
+    "Capacity": "320 kg"
+   },
+   "workingHeightM": 13.8
+  },
+  {
+   "id": "1446",
+   "name": "JCPT1212AC",
+   "slug": "jcpt1212ac",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1212ac.webp",
+   "gallery": [
+    "/equipment/jcpt1212ac-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "12.00 m",
+    "Platform Height": "10.00 m",
+    "Capacity": "320 kg",
+    "Weight": "3060 kg"
+   },
+   "workingHeightM": 12.0
+  },
+  {
+   "id": "1488",
+   "name": "JCPT1212HA",
+   "slug": "jcpt1212ha",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1212ha.webp",
+   "gallery": [
+    "/equipment/jcpt1212ha-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "12.00 m",
+    "Platform Height": "10.00 m",
+    "Capacity": "320 kg",
+    "Weight": "3050 kg"
+   },
+   "workingHeightM": 12.0
+  },
+  {
+   "id": "1406",
+   "name": "JCPT1218DC",
+   "slug": "jcpt1218dc",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1218dc.webp",
+   "gallery": [
+    "/equipment/jcpt1218dc-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "12.00 m",
+    "Platform Height": "10.00 m",
+    "Capacity": "454 kg",
+    "Weight": "4135 kg"
+   },
+   "workingHeightM": 12.0
+  },
+  {
+   "id": "1276",
+   "name": "JCPT1218RT",
+   "slug": "jcpt1218rt",
+   "categories": [
+    "Rough Terrain Scissors"
+   ],
+   "category": "Rough Terrain Scissors",
+   "categorySlug": "rough-terrain-scissors",
+   "family": "Scissor Lifts",
+   "power": "Diesel",
+   "image": "/equipment/jcpt1218rt.webp",
+   "gallery": [
+    "/equipment/jcpt1218rt-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "12.00 m",
+    "Platform Height": "10.00 m",
+    "Capacity": "454 kg",
+    "Weight": "4300 kg"
+   },
+   "workingHeightM": 12.0
+  },
+  {
+   "id": "1458",
+   "name": "JCPT1008AC",
+   "slug": "jcpt1008ac",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1008ac.webp",
+   "gallery": [
+    "/equipment/jcpt1008ac-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "10.00 m",
+    "Platform Height": "8.00 m",
+    "Capacity": "230 kg",
+    "Weight": "2230 kg"
+   },
+   "workingHeightM": 10.0
+  },
+  {
+   "id": "1492",
+   "name": "JCPT1008HA",
+   "slug": "jcpt1008ha",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1008ha.webp",
+   "gallery": [
+    "/equipment/jcpt1008ha-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "10.00 m",
+    "Platform Height": "8.00 m",
+    "Capacity": "230 kg",
+    "Weight": "2190 kg"
+   },
+   "workingHeightM": 10.0
+  },
+  {
+   "id": "1450",
+   "name": "JCPT1012AC",
+   "slug": "jcpt1012ac",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1012ac.webp",
+   "gallery": [
+    "/equipment/jcpt1012ac-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "10.00 m",
+    "Platform Height": "8.00 m",
+    "Capacity": "450 kg",
+    "Weight": "2710 kg"
+   },
+   "workingHeightM": 10.0
+  },
+  {
+   "id": "1496",
+   "name": "JCPT1012HA",
+   "slug": "jcpt1012ha",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1012ha.webp",
+   "gallery": [
+    "/equipment/jcpt1012ha-g1.webp",
+    "/equipment/jcpt1012ha-g2.webp"
+   ],
+   "specs": {
+    "Working Height": "10.00 m",
+    "Platform Height": "8.00 m",
+    "Capacity": "450 kg",
+    "Weight": "2670 kg"
+   },
+   "workingHeightM": 10.0
+  },
+  {
+   "id": "1454",
+   "name": "JCPT1008ACS",
+   "slug": "jcpt1008acs",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt1008acs.webp",
+   "gallery": [
+    "/equipment/jcpt1008acs-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "9.60 m",
+    "Platform Height": "7.60 m",
+    "Capacity": "230 kg",
+    "Weight": "1940 kg"
+   },
+   "workingHeightM": 9.6
+  },
+  {
+   "id": "1466",
+   "name": "JCPT0808AC",
+   "slug": "jcpt0808ac",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0808ac.webp",
+   "gallery": [
+    "/equipment/jcpt0808ac-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "8.00 m",
+    "Platform Height": "6.00 m",
+    "Capacity": "380 kg",
+    "Weight": "2160 kg"
+   },
+   "workingHeightM": 8.0
+  },
+  {
+   "id": "1509",
+   "name": "JCPT0808HA",
+   "slug": "jcpt0808ha",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0808ha.webp",
+   "gallery": [
+    "/equipment/jcpt0808ha-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "8.00 m",
+    "Platform Height": "6.00 m",
+    "Capacity": "380 kg",
+    "Weight": "2120 kg"
+   },
+   "workingHeightM": 8.0
+  },
+  {
+   "id": "1462",
+   "name": "JCPT0812AC",
+   "slug": "jcpt0812ac",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0812ac.webp",
+   "gallery": [
+    "/equipment/jcpt0812ac-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "8.00 m",
+    "Platform Height": "6.00 m",
+    "Capacity": "540 kg",
+    "Weight": "1990 kg"
+   },
+   "workingHeightM": 8.0
+  },
+  {
+   "id": "1501",
+   "name": "JCPT0812HA",
+   "slug": "jcpt0812ha",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0812ha.webp",
+   "gallery": [
+    "/equipment/jcpt0812ha-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "8.00 m",
+    "Platform Height": "6.00 m",
+    "Capacity": "540 kg",
+    "Weight": "1950 kg"
+   },
+   "workingHeightM": 8.0
+  },
+  {
+   "id": "1470",
+   "name": "JCPT0807AC",
+   "slug": "jcpt0807ac",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0807ac.webp",
+   "gallery": [
+    "/equipment/jcpt0807ac-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "7.80 m",
+    "Platform Height": "5.80 m",
+    "Capacity": "230 kg",
+    "Weight": "1630 kg"
+   },
+   "workingHeightM": 7.8
+  },
+  {
+   "id": "1505",
+   "name": "JCPT0807HA",
+   "slug": "jcpt0807ha",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0807ha.webp",
+   "gallery": [
+    "/equipment/jcpt0807ha-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "7.80 m",
+    "Platform Height": "5.80 m",
+    "Capacity": "230 kg",
+    "Weight": "1610 kg"
+   },
+   "workingHeightM": 7.8
+  },
+  {
+   "id": "1418",
+   "name": "JCPT0708DCH",
+   "slug": "jcpt0708dch",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0708dch.webp",
+   "gallery": [
+    "/equipment/jcpt0708dch-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "7.60 m",
+    "Platform Height": "5.60 m",
+    "Capacity": "230 kg",
+    "Weight": "1300 kg"
+   },
+   "workingHeightM": 7.6
+  },
+  {
+   "id": "1414",
+   "name": "JCPT0708DCM",
+   "slug": "jcpt0708dcm",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0708dcm.webp",
+   "gallery": [
+    "/equipment/jcpt0708dcm-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "7.60 m",
+    "Platform Height": "5.60 m",
+    "Capacity": "230 kg",
+    "Weight": "1300 kg"
+   },
+   "workingHeightM": 7.6
+  },
+  {
+   "id": "1422",
+   "name": "JCPT0608DCH",
+   "slug": "jcpt0608dch",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0608dch.webp",
+   "gallery": [
+    "/equipment/jcpt0608dch-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "6.50 m",
+    "Platform Height": "4.50 m",
+    "Capacity": "230 kg",
+    "Weight": "995 kg"
+   },
+   "workingHeightM": 6.5
+  },
+  {
+   "id": "1410",
+   "name": "JCPT0707DCM",
+   "slug": "jcpt0707dcm",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0707dcm.webp",
+   "gallery": [
+    "/equipment/jcpt0707dcm-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "6.50 m",
+    "Platform Height": "4.50 m",
+    "Capacity": "230 kg",
+    "Weight": "1200 kg"
+   },
+   "workingHeightM": 6.5
+  },
+  {
+   "id": "1283",
+   "name": "JCPT0607A",
+   "slug": "jcpt0607a",
+   "categories": [
+    "Manual Push Scissors"
+   ],
+   "category": "Manual Push Scissors",
+   "categorySlug": "manual-push-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0607a.webp",
+   "gallery": [
+    "/equipment/jcpt0607a-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "5.90 m",
+    "Platform Height": "3.90 m",
+    "Capacity": "240 kg",
+    "Weight": "530 kg"
+   },
+   "workingHeightM": 5.9
+  },
+  {
+   "id": "1430",
+   "name": "JCPT0607DCH",
+   "slug": "jcpt0607dch",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0607dch.webp",
+   "gallery": [
+    "/equipment/jcpt0607dch-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "5.60 m",
+    "Platform Height": "3.60 m",
+    "Capacity": "240 kg",
+    "Weight": "960 kg"
+   },
+   "workingHeightM": 5.6
+  },
+  {
+   "id": "1426",
+   "name": "JCPT0607DCM",
+   "slug": "jcpt0607dcm",
+   "categories": [
+    "Electric Slab Scissors"
+   ],
+   "category": "Electric Slab Scissors",
+   "categorySlug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "power": "Electric",
+   "image": "/equipment/jcpt0607dcm.webp",
+   "gallery": [
+    "/equipment/jcpt0607dcm-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "5.60 m",
+    "Platform Height": "3.60 m",
+    "Capacity": "240 kg",
+    "Weight": "920 kg"
+   },
+   "workingHeightM": 5.6
+  },
+  {
+   "id": "6721",
+   "name": "LEO12T",
+   "slug": "leo12t",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo12t.webp",
+   "gallery": [
+    "/equipment/leo12t-g1.webp",
+    "/equipment/leo12t-g2.webp",
+    "/equipment/leo12t-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "6732",
+   "name": "LEO13GT",
+   "slug": "leo13gt",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo13gt.webp",
+   "gallery": [
+    "/equipment/leo13gt-g1.webp",
+    "/equipment/leo13gt-g2.webp",
+    "/equipment/leo13gt-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "6743",
+   "name": "LEO15GT",
+   "slug": "leo15gt",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo15gt.webp",
+   "gallery": [
+    "/equipment/leo15gt-g1.webp",
+    "/equipment/leo15gt-g2.webp",
+    "/equipment/leo15gt-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "6752",
+   "name": "LEO18GTPLUS",
+   "slug": "leo18gtplus",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo18gtplus.webp",
+   "gallery": [
+    "/equipment/leo18gtplus-g1.webp",
+    "/equipment/leo18gtplus-g2.webp",
+    "/equipment/leo18gtplus-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "6761",
+   "name": "LEO23GT",
+   "slug": "leo23gt",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo23gt.webp",
+   "gallery": [
+    "/equipment/leo23gt-g1.webp",
+    "/equipment/leo23gt-g2.webp",
+    "/equipment/leo23gt-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "6779",
+   "name": "LEO23T",
+   "slug": "leo23t",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo23t.webp",
+   "gallery": [
+    "/equipment/leo23t-g1.webp",
+    "/equipment/leo23t-g2.webp",
+    "/equipment/leo23t-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "6770",
+   "name": "LEO24GT",
+   "slug": "leo24gt",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo24gt.webp",
+   "gallery": [
+    "/equipment/leo24gt-g1.webp",
+    "/equipment/leo24gt-g2.webp",
+    "/equipment/leo24gt-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "6789",
+   "name": "LEO27GTPLUS",
+   "slug": "leo27gtplus",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo27gtplus.webp",
+   "gallery": [
+    "/equipment/leo27gtplus-g1.webp",
+    "/equipment/leo27gtplus-g2.webp",
+    "/equipment/leo27gtplus-g3.webp"
+   ],
+   "specs": {
+    "Capacity": "250 kg"
+   },
+   "workingHeightM": null
+  },
+  {
+   "id": "6798",
+   "name": "LEO30TPLUS",
+   "slug": "leo30tplus",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo30tplus.webp",
+   "gallery": [
+    "/equipment/leo30tplus-g1.webp",
+    "/equipment/leo30tplus-g2.webp",
+    "/equipment/leo30tplus-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "6816",
+   "name": "LEO34GTPLUS",
+   "slug": "leo34gtplus",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo34gtplus.webp",
+   "gallery": [
+    "/equipment/leo34gtplus-g1.webp",
+    "/equipment/leo34gtplus-g2.webp",
+    "/equipment/leo34gtplus-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "6807",
+   "name": "LEO35TPLUS",
+   "slug": "leo35tplus",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo35tplus.webp",
+   "gallery": [
+    "/equipment/leo35tplus-g1.webp",
+    "/equipment/leo35tplus-g2.webp",
+    "/equipment/leo35tplus-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "6825",
+   "name": "LEO39GTPLUS",
+   "slug": "leo39gtplus",
+   "categories": [
+    "Teupen Leo Series"
+   ],
+   "category": "Teupen Leo Series",
+   "categorySlug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "power": "Electric",
+   "image": "/equipment/leo39gtplus.webp",
+   "gallery": [
+    "/equipment/leo39gtplus-g1.webp",
+    "/equipment/leo39gtplus-g2.webp",
+    "/equipment/leo39gtplus-g3.webp"
+   ],
+   "specs": {},
+   "workingHeightM": null
+  },
+  {
+   "id": "1200",
+   "name": "GTWY14-1300",
+   "slug": "gtwy14-1300",
+   "categories": [
+    "Push Type Mobile Lifts"
+   ],
+   "category": "Push Type Mobile Lifts",
+   "categorySlug": "push-type-mobile-lifts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/gtwy14-1300.webp",
+   "gallery": [
+    "/equipment/gtwy14-1300-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "14.00 m",
+    "Platform Height": "12.00 m",
+    "Capacity": "136 kg"
+   },
+   "workingHeightM": 14.0
+  },
+  {
+   "id": "1198",
+   "name": "GTWY14-2100",
+   "slug": "gtwy14-2100",
+   "categories": [
+    "Push Type Mobile Lifts"
+   ],
+   "category": "Push Type Mobile Lifts",
+   "categorySlug": "push-type-mobile-lifts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/gtwy14-2100.webp",
+   "gallery": [
+    "/equipment/gtwy14-2100-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "14.00 m",
+    "Platform Height": "12.00 m",
+    "Capacity": "200 kg"
+   },
+   "workingHeightM": 14.0
+  },
+  {
+   "id": "1205",
+   "name": "GTWY12.5-1300",
+   "slug": "gtwy12-5-1300",
+   "categories": [
+    "Push Type Mobile Lifts"
+   ],
+   "category": "Push Type Mobile Lifts",
+   "categorySlug": "push-type-mobile-lifts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/gtwy12-5-1300.webp",
+   "gallery": [
+    "/equipment/gtwy12-5-1300-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "12.50 m",
+    "Platform Height": "10.50 m",
+    "Capacity": "150 kg"
+   },
+   "workingHeightM": 12.5
+  },
+  {
+   "id": "1203",
+   "name": "GTWY12.5-2100",
+   "slug": "gtwy12-5-2100",
+   "categories": [
+    "Push Type Mobile Lifts"
+   ],
+   "category": "Push Type Mobile Lifts",
+   "categorySlug": "push-type-mobile-lifts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/gtwy12-5-2100.webp",
+   "gallery": [
+    "/equipment/gtwy12-5-2100-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "12.50 m",
+    "Platform Height": "10.50 m",
+    "Capacity": "250 kg"
+   },
+   "workingHeightM": 12.5
+  },
+  {
+   "id": "1190",
+   "name": "AMWP11.5-8100",
+   "slug": "amwp11-5-8100",
+   "categories": [
+    "Self Propelled Vertical Masts"
+   ],
+   "category": "Self Propelled Vertical Masts",
+   "categorySlug": "self-propelled-vertical-masts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/amwp11-5-8100.webp",
+   "gallery": [
+    "/equipment/amwp11-5-8100-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "11.20 m",
+    "Platform Height": "9.20 m",
+    "Capacity": "200 kg",
+    "Weight": "2950 kg"
+   },
+   "workingHeightM": 11.2
+  },
+  {
+   "id": "4714",
+   "name": "AMWP11.5-8200AC",
+   "slug": "amwp11-5-8200ac",
+   "categories": [
+    "Self Propelled Vertical Masts"
+   ],
+   "category": "Self Propelled Vertical Masts",
+   "categorySlug": "self-propelled-vertical-masts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/amwp11-5-8200ac.webp",
+   "gallery": [
+    "/equipment/amwp11-5-8200ac-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "11.20 m",
+    "Platform Height": "9.20 m",
+    "Capacity": "200 kg",
+    "Weight": "2970 kg"
+   },
+   "workingHeightM": 11.2
+  },
+  {
+   "id": "1213",
+   "name": "GTWY11-1300",
+   "slug": "gtwy11-1300",
+   "categories": [
+    "Push Type Mobile Lifts"
+   ],
+   "category": "Push Type Mobile Lifts",
+   "categorySlug": "push-type-mobile-lifts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/gtwy11-1300.webp",
+   "gallery": [
+    "/equipment/gtwy11-1300-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "11.00 m",
+    "Platform Height": "9.00 m",
+    "Capacity": "150 kg"
+   },
+   "workingHeightM": 11.0
+  },
+  {
+   "id": "1211",
+   "name": "GTWY11-2100",
+   "slug": "gtwy11-2100",
+   "categories": [
+    "Push Type Mobile Lifts"
+   ],
+   "category": "Push Type Mobile Lifts",
+   "categorySlug": "push-type-mobile-lifts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/gtwy11-2100.webp",
+   "gallery": [
+    "/equipment/gtwy11-2100-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "11.00 m",
+    "Platform Height": "9.00 m",
+    "Capacity": "300 kg"
+   },
+   "workingHeightM": 11.0
+  },
+  {
+   "id": "1194",
+   "name": "AMWP9.5-1200",
+   "slug": "amwp9-5-1200",
+   "categories": [
+    "Self Propelled Vertical Masts"
+   ],
+   "category": "Self Propelled Vertical Masts",
+   "categorySlug": "self-propelled-vertical-masts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/amwp9-5-1200.webp",
+   "gallery": [
+    "/equipment/amwp9-5-1200-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "9.50 m",
+    "Platform Height": "7.50 m",
+    "Capacity": "136 kg",
+    "Weight": "1535 kg"
+   },
+   "workingHeightM": 9.5
+  },
+  {
+   "id": "1218",
+   "name": "GTWY9.5-1300",
+   "slug": "gtwy9-5-3100",
+   "categories": [
+    "Push Type Mobile Lifts"
+   ],
+   "category": "Push Type Mobile Lifts",
+   "categorySlug": "push-type-mobile-lifts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/gtwy9-5-3100.webp",
+   "gallery": [
+    "/equipment/gtwy9-5-3100-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "9.50 m",
+    "Platform Height": "7.50 m",
+    "Capacity": "150 kg"
+   },
+   "workingHeightM": 9.5
+  },
+  {
+   "id": "1215",
+   "name": "GTWY9.5-2100",
+   "slug": "gtwy9-5-2100",
+   "categories": [
+    "Push Type Mobile Lifts"
+   ],
+   "category": "Push Type Mobile Lifts",
+   "categorySlug": "push-type-mobile-lifts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/gtwy9-5-2100.webp",
+   "gallery": [
+    "/equipment/gtwy9-5-2100-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "9.50 m",
+    "Platform Height": "7.50 m",
+    "Capacity": "300 kg"
+   },
+   "workingHeightM": 9.5
+  },
+  {
+   "id": "1196",
+   "name": "AMWP8-1200",
+   "slug": "amwp8-1200",
+   "categories": [
+    "Self Propelled Vertical Masts"
+   ],
+   "category": "Self Propelled Vertical Masts",
+   "categorySlug": "self-propelled-vertical-masts",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/amwp8-1200.webp",
+   "gallery": [
+    "/equipment/amwp8-1200-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "8.00 m",
+    "Platform Height": "6.00 m",
+    "Capacity": "159 kg",
+    "Weight": "1285 kg"
+   },
+   "workingHeightM": 8.0
+  },
+  {
+   "id": "1237",
+   "name": "DYT2-4.5S",
+   "slug": "dyt2-4-5s",
+   "categories": [
+    "Stock Pickers & Order Pickers"
+   ],
+   "category": "Stock Pickers & Order Pickers",
+   "categorySlug": "stock-pickers-and-order-pickers",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/dyt2-4-5s.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "6.50 m",
+    "Platform Height": "4.50 m",
+    "Capacity": "300 kg",
+    "Weight": "605 kg"
+   },
+   "workingHeightM": 6.5
+  },
+  {
+   "id": "1223",
+   "name": "ZDYT3-4.5S",
+   "slug": "zdyt3-4-5s",
+   "categories": [
+    "Stock Pickers & Order Pickers"
+   ],
+   "category": "Stock Pickers & Order Pickers",
+   "categorySlug": "stock-pickers-and-order-pickers",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/zdyt3-4-5s.webp",
+   "gallery": [
+    "/equipment/zdyt3-4-5s-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "6.50 m",
+    "Platform Height": "4.50 m",
+    "Capacity": "300 kg",
+    "Weight": "840 kg"
+   },
+   "workingHeightM": 6.5
+  },
+  {
+   "id": "1245",
+   "name": "DYT2-3.7SW",
+   "slug": "dyt2-3-7sw",
+   "categories": [
+    "Stock Pickers & Order Pickers"
+   ],
+   "category": "Stock Pickers & Order Pickers",
+   "categorySlug": "stock-pickers-and-order-pickers",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/dyt2-3-7sw.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "5.70 m",
+    "Platform Height": "3.70 m",
+    "Capacity": "300 kg",
+    "Weight": "490 kg"
+   },
+   "workingHeightM": 5.7
+  },
+  {
+   "id": "1231",
+   "name": "ZDYT3-3.7S",
+   "slug": "zdyt3-3-7s",
+   "categories": [
+    "Stock Pickers & Order Pickers"
+   ],
+   "category": "Stock Pickers & Order Pickers",
+   "categorySlug": "stock-pickers-and-order-pickers",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/zdyt3-3-7s.webp",
+   "gallery": [
+    "/equipment/zdyt3-3-7s-g1.webp",
+    "/equipment/zdyt3-3-7s-g2.webp"
+   ],
+   "specs": {
+    "Working Height": "5.70 m",
+    "Platform Height": "3.70 m",
+    "Capacity": "300 kg",
+    "Weight": "720 kg"
+   },
+   "workingHeightM": 5.7
+  },
+  {
+   "id": "1227",
+   "name": "ZDYT3-3.0S",
+   "slug": "zdyt3-3-0s",
+   "categories": [
+    "Stock Pickers & Order Pickers"
+   ],
+   "category": "Stock Pickers & Order Pickers",
+   "categorySlug": "stock-pickers-and-order-pickers",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/zdyt3-3-0s.webp",
+   "gallery": [
+    "/equipment/zdyt3-3-0s-g1.webp"
+   ],
+   "specs": {
+    "Working Height": "5.00 m",
+    "Platform Height": "3.00 m",
+    "Capacity": "300 kg",
+    "Weight": "690 kg"
+   },
+   "workingHeightM": 5.0
+  },
+  {
+   "id": "1240",
+   "name": "DYT2-2.7S",
+   "slug": "dyt2-2-7s",
+   "categories": [
+    "Stock Pickers & Order Pickers"
+   ],
+   "category": "Stock Pickers & Order Pickers",
+   "categorySlug": "stock-pickers-and-order-pickers",
+   "family": "Vertical Lifts",
+   "power": "Electric",
+   "image": "/equipment/dyt2-2-7s.webp",
+   "gallery": [],
+   "specs": {
+    "Working Height": "4.70 m",
+    "Platform Height": "2.70 m",
+    "Capacity": "300 kg",
+    "Weight": "460 kg"
+   },
+   "workingHeightM": 4.7
+  }
+ ],
+ "categories": [
+  {
+   "name": "Telescopic Boom Lifts",
+   "slug": "telescopic-boom-lifts",
+   "family": "Boom Lifts",
+   "count": 61,
+   "image": "/equipment/bt44ert.webp"
+  },
+  {
+   "name": "Articulated Boom Lifts",
+   "slug": "articulated-boom-lifts",
+   "family": "Boom Lifts",
+   "count": 41,
+   "image": "/equipment/ba44ert.webp"
+  },
+  {
+   "name": "Electric Slab Scissors",
+   "slug": "electric-slab-scissors",
+   "family": "Scissor Lifts",
+   "count": 38,
+   "image": "/equipment/jcpt3214dc.webp"
+  },
+  {
+   "name": "Oil-Free & All-Electric",
+   "slug": "oil-free-and-all-electric",
+   "family": "AC+ Series",
+   "count": 13,
+   "image": "/equipment/jcpt0708pa.webp"
+  },
+  {
+   "name": "Teupen Leo Series",
+   "slug": "teupen-leo-series",
+   "family": "Spider Lifts",
+   "count": 12,
+   "image": "/equipment/leo12t.webp"
+  },
+  {
+   "name": "AC⁺ Series",
+   "slug": "ac-plus-series",
+   "family": "AC+ Series",
+   "count": 8,
+   "image": "/equipment/s1612ac.webp"
+  },
+  {
+   "name": "Rough Terrain Scissors",
+   "slug": "rough-terrain-scissors",
+   "family": "Scissor Lifts",
+   "count": 8,
+   "image": "/equipment/jcpt3225rt.webp"
+  },
+  {
+   "name": "Push Type Mobile Lifts",
+   "slug": "push-type-mobile-lifts",
+   "family": "Vertical Lifts",
+   "count": 8,
+   "image": "/equipment/gtwy14-1300.webp"
+  },
+  {
+   "name": "Stock Pickers & Order Pickers",
+   "slug": "stock-pickers-and-order-pickers",
+   "family": "Vertical Lifts",
+   "count": 6,
+   "image": "/equipment/dyt2-4-5s.webp"
+  },
+  {
+   "name": "Self Propelled Vertical Masts",
+   "slug": "self-propelled-vertical-masts",
+   "family": "Vertical Lifts",
+   "count": 4,
+   "image": "/equipment/amwp11-5-8100.webp"
+  },
+  {
+   "name": "Manual Push Scissors",
+   "slug": "manual-push-scissors",
+   "family": "Scissor Lifts",
+   "count": 1,
+   "image": "/equipment/jcpt0607a.webp"
+  }
+ ]
+}
