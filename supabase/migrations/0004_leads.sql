@@ -1,5 +1,11 @@
 -- Website lead capture: contact, quote, callback and warranty registrations.
 --
+-- Target: the SHARED Supabase project that also backs Dealer Connect
+-- (project ref hehrynjgpmdpbfgdxnvn). That project's migration history already
+-- contains 0001-0003, owned by the dealer-connect repo, which is why this file
+-- starts at 0004. Keep the two repos' migration numbers from colliding - a
+-- duplicate version is treated as already applied and silently skipped.
+--
 -- Writes come exclusively from the Next.js route handler at /api/leads using
 -- the service role key, which bypasses RLS. RLS is therefore enabled with no
 -- policies at all: nothing reaches this table through the anon or authenticated
