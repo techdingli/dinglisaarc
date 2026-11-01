@@ -62,6 +62,7 @@ export const INTEREST_OPTIONS = [
   "Vertical Lifts",
   "Spider Lifts",
   "AC+ All-Electric Range",
+  "Used Equipment",
   "Parts & Service",
   "Operator Training",
   "Other",

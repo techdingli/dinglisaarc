@@ -34,6 +34,7 @@ export const nav = [
   { label: "Equipment", href: "/equipment" },
   { label: "Categories", href: "/categories" },
   { label: "AC+ Series", href: "/ac-plus-series" },
+  { label: "Used", href: "/used-equipment" },
   { label: "Services", href: "/services" },
   { label: "Industries", href: "/industries" },
   { label: "Dealers", href: "/dealers" },

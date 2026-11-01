@@ -14,11 +14,13 @@ export function EnquiryForm({
   showInterest = true,
   submitLabel = "Send Enquiry",
   defaultMessage = "",
+  defaultInterest = "",
 }: {
   kind?: "contact" | "quote" | "callback";
   showInterest?: boolean;
   submitLabel?: string;
   defaultMessage?: string;
+  defaultInterest?: string;
 }) {
   const [state, setState] = useState<State>("idle");
   const [reference, setReference] = useState<string>();
@@ -37,7 +39,7 @@ export function EnquiryForm({
       phone: "",
       email: "",
       company: "",
-      interest: "",
+      interest: defaultInterest,
       message: defaultMessage,
       website: "",
     },

@@ -8,6 +8,7 @@ import { families } from "@/lib/catalog";
 const companyLinks = [
   { label: "About", href: "/about" },
   { label: "AC+ Series", href: "/ac-plus-series" },
+  { label: "Used Equipment", href: "/used-equipment" },
   { label: "Industries", href: "/industries" },
   { label: "Dealers", href: "/dealers" },
   { label: "Categories", href: "/categories" },
