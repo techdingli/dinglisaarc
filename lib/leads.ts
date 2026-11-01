@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-const phone = z
+export const phoneSchema = z
   .string()
   .trim()
   .min(7, "Enter a valid phone number")
@@ -11,7 +11,7 @@ const phone = z
 export const enquirySchema = z.object({
   kind: z.enum(["contact", "quote", "callback"]),
   name: z.string().trim().min(2, "Enter your name").max(100),
-  phone,
+  phone: phoneSchema,
   email: z.string().trim().email("Enter a valid email").max(120).or(z.literal("")),
   company: z.string().trim().max(120).optional(),
   interest: z.string().trim().max(120).optional(),
@@ -35,7 +35,7 @@ export const warrantySchema = z.object({
   invoiceNumber: z.string().trim().max(80).optional(),
   ownerName: z.string().trim().min(2, "Enter the owner name").max(100),
   company: z.string().trim().min(2, "Enter the company name").max(120),
-  phone,
+  phone: phoneSchema,
   email: z.string().trim().email("Enter a valid email").max(120),
   city: z.string().trim().min(2, "Enter the deployment city").max(80),
   state: z.string().trim().min(2, "Enter the state").max(80),
