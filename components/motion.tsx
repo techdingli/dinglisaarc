@@ -11,6 +11,11 @@ import {
 } from "motion/react";
 import { useEffect, useRef, type ReactNode } from "react";
 
+// Inset only the bottom edge. A bare "-80px" insets all four sides, so anything
+// narrow sitting within that distance of the left or right edge (e.g. the
+// left-hand stat column on a phone) never intersects and never animates in.
+const inViewMargin = (px: number) => `0px 0px ${-px}px 0px` as const;
+
 /** Fade + rise as the element scrolls into view. */
 export function Reveal({
   children,
@@ -30,7 +35,7 @@ export function Reveal({
       className={className}
       initial={reduce ? false : { opacity: 0, y }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-80px" }}
+      viewport={{ once: true, margin: inViewMargin(80) }}
       transition={{ duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] }}
     >
       {children}
@@ -55,7 +60,7 @@ export function Stagger({
       className={className}
       initial={reduce ? false : "hidden"}
       whileInView="show"
-      viewport={{ once: true, margin: "-60px" }}
+      viewport={{ once: true, margin: inViewMargin(60) }}
       variants={{
         hidden: {},
         show: { transition: { staggerChildren: step } },
@@ -128,7 +133,7 @@ export function CountUp({
   className?: string;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-60px" });
+  const inView = useInView(ref, { once: true, margin: inViewMargin(60) });
   const reduce = useReducedMotion();
   const count = useMotionValue(0);
 
