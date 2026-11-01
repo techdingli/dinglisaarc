@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
-import { Award, Factory, Globe2, Lightbulb } from "lucide-react";
+import { ArrowUpRight, Award, Factory, Globe2, Lightbulb } from "lucide-react";
 import { CountUp, Reveal, Stagger, StaggerItem } from "@/components/motion";
 import { SectionHeading } from "@/components/section-heading";
+import { team } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Dingli AWP India is the authorised India and SAARC partner for Dingli, one of the world's largest manufacturers of aerial work platforms.",
+    "Dingli AWP India supplies, commissions and services aerial work platforms from Dingli, one of the world's largest manufacturers, across India and SAARC.",
 };
 
 const stats = [
@@ -53,7 +55,7 @@ export default function AboutPage() {
             About Us
           </p>
           <h1 className="text-5xl sm:text-6xl">
-            The Authorised Partner for <span className="text-brand">India &amp; SAARC</span>
+            Dingli for <span className="text-brand">India &amp; SAARC</span>
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted">
             We supply, commission and service the full Dingli aerial work platform
@@ -101,6 +103,65 @@ export default function AboutPage() {
                 <p className="mt-2 leading-relaxed text-muted">{blurb}</p>
               </StaggerItem>
             ))}
+          </Stagger>
+        </div>
+      </section>
+
+      <section className="border-t border-line bg-band py-20">
+        <div className="container-x">
+          <SectionHeading
+            eyebrow="Our Team"
+            title="The People Behind"
+            accent="Dingli India"
+            align="left"
+          />
+
+          <Stagger className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {team.map((m) => {
+              const initials = m.name
+                .split(" ")
+                .map((w) => w[0])
+                .join("")
+                .slice(0, 2);
+              return (
+                <StaggerItem
+                  key={m.name}
+                  className="flex flex-col rounded-xl border border-line bg-white p-7"
+                >
+                  {m.photo ? (
+                    <Image
+                      src={m.photo}
+                      alt={m.name}
+                      width={80}
+                      height={80}
+                      className="size-20 rounded-full object-cover"
+                    />
+                  ) : (
+                    <div
+                      className="grid size-20 place-items-center rounded-full bg-brand-tint font-display text-3xl text-brand"
+                      aria-hidden
+                    >
+                      {initials}
+                    </div>
+                  )}
+                  <h3 className="mt-5 text-2xl">{m.name}</h3>
+                  <p className="text-xs font-bold uppercase tracking-[0.14em] text-brand">
+                    {m.role}
+                  </p>
+                  <p className="mt-3 flex-1 leading-relaxed text-muted">{m.focus}</p>
+                  {m.linkedin && (
+                    <a
+                      href={m.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-ink hover:text-brand"
+                    >
+                      LinkedIn <ArrowUpRight className="size-4" />
+                    </a>
+                  )}
+                </StaggerItem>
+              );
+            })}
           </Stagger>
         </div>
       </section>

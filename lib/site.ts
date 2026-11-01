@@ -1,7 +1,7 @@
 export const site = {
   name: "Dingli AWP India",
   legalName: "Dingli AWP India (SAARC)",
-  tagline: "Authorised India & SAARC partner for Dingli aerial work platforms",
+  tagline: "Dingli aerial work platforms for India & SAARC",
   url: "https://www.dinglisaarc.com",
 
   phone: {
@@ -104,6 +104,34 @@ export const faqs = [
   },
   {
     q: "Do you cover the wider SAARC region?",
-    a: "Yes. We are the authorised partner for India and the SAARC region - contact us for country-specific lead times.",
+    a: "Yes. Dingli AWP India covers India and the wider SAARC region - contact us for country-specific lead times.",
   },
 ] as const;
+
+/**
+ * Leadership shown on the About page. Add `photo` (a path under /public) and
+ * `linkedin` as they become available; without a photo the card shows initials.
+ */
+export const team: {
+  name: string;
+  role: string;
+  focus: string;
+  photo?: string;
+  linkedin?: string;
+}[] = [
+  {
+    name: "Sagar Sawlani",
+    role: "CEO - SAARC",
+    focus: "Leads Dingli AWP India across India and the SAARC region.",
+  },
+  {
+    name: "Ranjit",
+    role: "Dealer Management",
+    focus: "Builds and supports the authorised dealer network across India.",
+  },
+  {
+    name: "Mutul",
+    role: "Rental Sales",
+    focus: "Works with rental companies on fleet supply and expansion.",
+  },
+];

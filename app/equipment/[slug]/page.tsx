@@ -27,7 +27,7 @@ export async function generateMetadata({
     title: `${product.name} - ${product.category}`,
     description: `${product.name} ${product.category.toLowerCase()}${
       height ? ` with ${height} working height` : ""
-    }. Specifications, availability and pricing from the authorised India and SAARC partner.`,
+    }. Specifications, availability and pricing from Dingli AWP India.`,
   };
 }
 

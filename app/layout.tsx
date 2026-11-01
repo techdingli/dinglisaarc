@@ -3,6 +3,8 @@ import { Barlow_Condensed, Inter } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { ChatWidget } from "@/components/chat-widget";
+import { CHAT_GREETING } from "@/lib/chat-greeting";
 import { site } from "@/lib/site";
 
 const inter = Inter({
@@ -25,7 +27,7 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    "Authorised India and SAARC partner for Dingli aerial work platforms - boom lifts, scissor lifts, vertical masts and spider lifts, with nationwide service and genuine parts.",
+    "Dingli aerial work platforms for India and SAARC - boom lifts, scissor lifts, vertical masts and spider lifts, with nationwide service and genuine parts.",
   openGraph: {
     type: "website",
     siteName: site.name,
@@ -44,6 +46,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        {process.env.ANTHROPIC_API_KEY && <ChatWidget greeting={CHAT_GREETING} />}
       </body>
     </html>
   );
