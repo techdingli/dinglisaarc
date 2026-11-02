@@ -12,6 +12,7 @@ const companyLinks = [
   { label: "Industries", href: "/industries" },
   { label: "Dealers", href: "/dealers" },
   { label: "Categories", href: "/categories" },
+  { label: "Blog", href: "/blog" },
 ];
 
 const supportLinks = [

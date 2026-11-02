@@ -63,14 +63,14 @@ export function SiteHeader() {
           />
         </Link>
 
-        <nav className="hidden items-center gap-6 xl:flex">
+        <nav className="hidden items-center gap-5 xl:flex 2xl:gap-6">
           {nav.map((item) => {
             const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
             return (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative text-sm font-semibold transition-colors hover:text-brand ${
+                className={`relative whitespace-nowrap text-sm font-semibold transition-colors hover:text-brand ${
                   active ? "text-brand" : "text-ink-soft"
                 }`}
               >
@@ -86,14 +86,16 @@ export function SiteHeader() {
         <div className="flex items-center gap-3">
           <a
             href={`tel:${site.phone.sales}`}
-            className="hidden items-center gap-2 text-sm font-semibold text-ink-soft transition-colors hover:text-brand md:flex"
+            aria-label={`Call ${site.phone.sales}`}
+            className="hidden items-center gap-2 whitespace-nowrap text-sm font-semibold text-ink-soft transition-colors hover:text-brand md:flex"
           >
             <Phone className="size-4" />
-            {site.phone.sales}
+            {/* Icon only at xl, where the full nav leaves no room for the number. */}
+            <span className="xl:hidden 2xl:inline">{site.phone.sales}</span>
           </a>
           <Link
             href="/contact"
-            className="hidden rounded-md bg-brand px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-dark sm:block"
+            className="hidden whitespace-nowrap rounded-md bg-brand px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-dark sm:block"
           >
             Request a Quote
           </Link>

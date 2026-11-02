@@ -52,7 +52,10 @@ export function ExpoStrip({ expo }: { expo: Expo }) {
   return (
     <div className="relative overflow-hidden bg-brand text-white">
       <div className="hatch pointer-events-none absolute inset-0 opacity-60" aria-hidden />
-      <div className="container-x relative flex min-h-11 flex-wrap items-center justify-center gap-x-3 gap-y-1 py-2 pr-10 sm:gap-x-4 text-center text-xs sm:text-sm">
+      <Link
+        href={expo.post}
+        className="group container-x relative flex min-h-11 flex-wrap items-center justify-center gap-x-3 gap-y-1 py-2 pr-10 text-center text-xs sm:gap-x-4 sm:text-sm"
+      >
         <span className="hidden items-center gap-1.5 rounded-full bg-white/15 px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-[0.14em] sm:inline-flex">
           <span className="size-1.5 animate-pulse rounded-full bg-white" />
           {countdownLabel(days) ?? "Upcoming"}
@@ -69,13 +72,10 @@ export function ExpoStrip({ expo }: { expo: Expo }) {
             <span className="mx-2 text-white/50">&middot;</span>Booth {expo.booth}
           </span>
         </p>
-        <Link
-          href={expo.cta.href}
-          className="inline-flex items-center gap-1 whitespace-nowrap font-semibold underline underline-offset-4 sm:no-underline sm:hover:underline"
-        >
-          {expo.cta.label} <ArrowRight className="hidden size-3.5 sm:block" />
-        </Link>
-      </div>
+        <span className="inline-flex items-center gap-1 whitespace-nowrap font-semibold underline underline-offset-4 sm:no-underline sm:group-hover:underline">
+          Find out more <ArrowRight className="hidden size-3.5 sm:block" />
+        </span>
+      </Link>
       <button
         type="button"
         onClick={dismiss}
@@ -167,7 +167,8 @@ export function ExpoFeature({ expo }: { expo: Expo }) {
         </div>
 
         <Link
-          href={expo.cta.href}
+          href={expo.post}
+          aria-label={`Read about Dingli at ${expo.name}`}
           className="group relative block aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl shadow-black/50 ring-1 ring-white/10"
         >
           <Image

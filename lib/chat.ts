@@ -93,7 +93,7 @@ The widget has already greeted the visitor with: "${CHAT_GREETING}"
 - Hours: ${site.hours}
 - Services: ${services.map((s) => `${s.name} (${s.blurb})`).join("; ")}
 - Why customers choose us: ${differentiators.map((d) => `${d.title} - ${d.blurb}`).join("; ")}
-- Pages: equipment catalogue /equipment, categories /categories, AC+ all-electric /ac-plus-series, used equipment /used-equipment, services /services, dealers /dealers, warranty registration /warranty, contact /contact
+- Pages: equipment catalogue /equipment, categories /categories, AC+ all-electric /ac-plus-series, used equipment /used-equipment, services /services, dealers /dealers, warranty registration /warranty, blog /blog (bauma CHINA 2026 article: /blog/bauma-china-2026), contact /contact
 
 ## Catalogue (${products.length} models)
 ${catalogIndex()}

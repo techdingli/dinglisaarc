@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
-import { Fragment, useEffect, useRef, useState, type ReactNode } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { ArrowUp, Loader2, MessageCircle, X } from "lucide-react";
+import { renderInline } from "@/components/inline-markdown";
 
 type Message = { role: "user" | "assistant"; content: string };
 
@@ -15,39 +15,7 @@ const STARTERS = [
   "Show me used equipment",
 ];
 
-/** Minimal, safe markdown: paragraphs, "- " bullets, **bold** and [links](url). */
-function renderInline(text: string, onNavigate?: () => void): ReactNode[] {
-  const out: ReactNode[] = [];
-  const re = /\*\*([^*]+)\*\*|\[([^\]]+)\]\(([^)\s]+)\)/g;
-  let last = 0;
-  let m: RegExpExecArray | null;
-  while ((m = re.exec(text))) {
-    if (m.index > last) out.push(text.slice(last, m.index));
-    if (m[1]) {
-      out.push(<strong key={m.index}>{m[1]}</strong>);
-    } else {
-      const href = m[3];
-      const cls = "font-semibold text-brand underline underline-offset-2";
-      out.push(
-        href.startsWith("/") ? (
-          <Link key={m.index} href={href} className={cls} onClick={onNavigate}>
-            {m[2]}
-          </Link>
-        ) : /^https?:\/\//.test(href) ? (
-          <a key={m.index} href={href} target="_blank" rel="noopener noreferrer" className={cls}>
-            {m[2]}
-          </a>
-        ) : (
-          m[2]
-        ),
-      );
-    }
-    last = re.lastIndex;
-  }
-  if (last < text.length) out.push(text.slice(last));
-  return out;
-}
-
+/** Chat-sized markdown: paragraphs and "- " bullets, inline via renderInline. */
 function Markdown({ text, onNavigate }: { text: string; onNavigate?: () => void }) {
   const blocks = text.trim().split(/\n{2,}/);
   return (
