@@ -4,6 +4,8 @@ import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ChatWidget } from "@/components/chat-widget";
+import { ExpoStrip } from "@/components/expo-banner";
+import { expo } from "@/lib/expo";
 import { CHAT_GREETING } from "@/lib/chat-greeting";
 import { site } from "@/lib/site";
 
@@ -43,6 +45,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${inter.variable} ${barlow.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        {expo && <ExpoStrip expo={expo} />}
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />

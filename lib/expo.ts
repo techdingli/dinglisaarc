@@ -13,8 +13,7 @@ export type Expo = {
   venue: string;
   booth: string;
   blurb: string;
-  highlights: string[];
-  /** Banner artwork; a product shot stands in until the real banner arrives. */
+  /** 4:3 banner artwork for the home page showcase, under /public/expo. */
   image: string;
   cta: { label: string; href: string };
   /** Official event site. */
@@ -31,8 +30,7 @@ export const expo: Expo | null = {
   booth: "TBA",
   blurb:
     "Asia's largest construction machinery show. See Dingli's boom lifts, scissor lifts and the AC+ all-electric range up close, and meet the team.",
-  highlights: ["Boom lifts", "Scissor lifts", "AC+ all-electric", "Live demos"],
-  image: "/equipment/bt44ert.webp",
+  image: "/expo/bauma-china-2026.webp",
   cta: { label: "Book a meeting", href: "/contact" },
   url: "https://www.bauma-china.com/",
 };

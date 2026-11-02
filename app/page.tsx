@@ -16,6 +16,8 @@ import { SectionHeading } from "@/components/section-heading";
 import { ProductCard } from "@/components/product-card";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { EnquiryForm } from "@/components/enquiry-form";
+import { ExpoFeature } from "@/components/expo-banner";
+import { expo } from "@/lib/expo";
 import { featuredProducts, familySummary, products } from "@/lib/catalog";
 import { differentiators, faqs, heroStats, industries, site } from "@/lib/site";
 
@@ -142,6 +144,8 @@ export default function HomePage() {
           )}
         </div>
       </section>
+
+      {expo && <ExpoFeature expo={expo} />}
 
       {/* ------------------------------------------------------ Featured models */}
       <section className="py-20 lg:py-28">

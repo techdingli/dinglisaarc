@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ArrowRight, CalendarDays, MapPin, Ticket, X } from "lucide-react";
+import { ArrowRight, MapPin, X } from "lucide-react";
 import { dateRange, daysUntil, type Expo } from "@/lib/expo";
 
 /** Days to go, computed in the browser so statically built pages stay current. */
@@ -166,120 +166,19 @@ export function ExpoFeature({ expo }: { expo: Expo }) {
           </div>
         </div>
 
-        <div className="relative">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-white/10 to-white/0">
-            <Image
-              src={expo.image}
-              alt={`Dingli at ${expo.name}`}
-              fill
-              sizes="(min-width: 1024px) 560px, 100vw"
-              className="object-contain p-8"
-            />
-            <div className="absolute left-4 top-4 rounded-md bg-brand px-3 py-1.5 font-display text-lg leading-none">
-              {expo.shortName}
-            </div>
-          </div>
-          <div className="absolute -bottom-5 left-6 right-6 flex flex-wrap justify-center gap-2">
-            {expo.highlights.map((h) => (
-              <span
-                key={h}
-                className="rounded-full bg-white px-3.5 py-1.5 text-xs font-semibold text-ink shadow-lg"
-              >
-                {h}
-              </span>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ----------------------------------------------------------------- C: ticket */
-
-/** Floating "ticket" card in the bottom-left corner of every page. */
-export function ExpoTicket({ expo }: { expo: Expo }) {
-  const days = useCountdown(expo);
-  const [dismissed, dismiss] = useDismissed(`expo-ticket:${expo.name}`);
-  const [collapsed, setCollapsed] = useState(false);
-  // On a phone the full card covers too much of the page, so start minimised.
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- viewport is only known in the browser
-    setCollapsed(!window.matchMedia("(min-width: 640px)").matches);
-  }, []);
-  if (dismissed || days === null) return null;
-
-  if (collapsed) {
-    return (
-      <button
-        type="button"
-        onClick={() => setCollapsed(false)}
-        className="fixed bottom-5 left-5 z-[55] inline-flex items-center gap-2 rounded-full bg-ink px-4 py-3 text-sm font-semibold text-white shadow-lg sm:bottom-6 sm:left-6"
-      >
-        <Ticket className="size-4 text-brand" /> {expo.shortName}
-        {days !== undefined && <span className="text-white/60">&middot; {countdownLabel(days)}</span>}
-      </button>
-    );
-  }
-
-  return (
-    <aside
-      aria-label={`Dingli at ${expo.name}`}
-      className="fixed bottom-24 left-4 right-4 z-[55] flex overflow-hidden rounded-2xl bg-ink text-white shadow-2xl sm:bottom-6 sm:left-6 sm:right-auto sm:w-[380px]"
-    >
-      <div className="relative flex w-24 shrink-0 flex-col items-center justify-center bg-brand px-2 py-4 text-center">
-        <p className="font-display text-4xl leading-none">
-          {new Date(`${expo.start}T00:00:00`).getDate()}
-        </p>
-        <p className="text-[11px] font-bold uppercase tracking-widest text-white/80">
-          {new Date(`${expo.start}T00:00:00`).toLocaleString("en-GB", { month: "short" })}
-        </p>
-        <div className="my-2 h-px w-8 bg-white/40" />
-        <p className="font-display text-2xl leading-none">
-          {days === undefined ? "-" : days === 0 ? "Now" : days}
-        </p>
-        <p className="text-[10px] font-semibold uppercase tracking-wider text-white/80">
-          {days === 0 ? "On" : "Days"}
-        </p>
-        {/* ticket notches */}
-        <span className="absolute -right-2 top-3 size-4 rounded-full bg-ink" aria-hidden />
-        <span className="absolute -right-2 bottom-3 size-4 rounded-full bg-ink" aria-hidden />
-      </div>
-      <div className="min-w-0 flex-1 border-l-2 border-dashed border-white/20 p-4 pr-9">
-        <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-brand-light">
-          Meet us at
-        </p>
-        <p className="font-display text-2xl leading-tight">{expo.name}</p>
-        <p className="mt-1.5 flex items-center gap-1.5 text-xs text-white/60">
-          <CalendarDays className="size-3.5 shrink-0" /> {dateRange(expo)}
-        </p>
-        <p className="mt-1 flex items-center gap-1.5 text-xs text-white/60">
-          <MapPin className="size-3.5 shrink-0" /> {expo.city} &middot; Booth {expo.booth}
-        </p>
         <Link
           href={expo.cta.href}
-          className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-brand-light hover:text-white"
+          className="group relative block aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl shadow-black/50 ring-1 ring-white/10"
         >
-          {expo.cta.label} <ArrowRight className="size-3.5" />
+          <Image
+            src={expo.image}
+            alt={`Dingli at ${expo.name}, ${dateRange(expo)}, ${expo.venue}`}
+            fill
+            sizes="(min-width: 1024px) 560px, 100vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+          />
         </Link>
       </div>
-      <div className="absolute right-1.5 top-1.5 flex flex-col">
-        <button
-          type="button"
-          onClick={dismiss}
-          aria-label="Dismiss expo card"
-          className="grid size-7 place-items-center rounded-md text-white/50 hover:bg-white/10 hover:text-white"
-        >
-          <X className="size-4" />
-        </button>
-      </div>
-      <button
-        type="button"
-        onClick={() => setCollapsed(true)}
-        className="absolute bottom-2 right-3 text-[11px] text-white/40 hover:text-white"
-      >
-        Minimise
-      </button>
-    </aside>
+    </section>
   );
 }
