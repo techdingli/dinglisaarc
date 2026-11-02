@@ -1,1 +1,99 @@
-[]
+[
+  {
+    "id": "3571182",
+    "model": "660SJ",
+    "brand": "JLG",
+    "category": "Telescopic Boom",
+    "status": "available",
+    "images": [
+      "/used/660sj.webp"
+    ]
+  },
+  {
+    "id": "3571179",
+    "model": "450AJ",
+    "brand": "JLG",
+    "category": "Articulated Boom",
+    "status": "available",
+    "images": [
+      "/used/450aj.webp"
+    ]
+  },
+  {
+    "id": "3571104",
+    "model": "BA28RT",
+    "brand": "Dingli",
+    "workingHeight": "28.15 m",
+    "capacity": "250 kg",
+    "status": "available",
+    "images": [
+      "/used/ba28rt.webp"
+    ],
+    "notes": "19.04 m horizontal outreach, 18,400 kg machine weight."
+  },
+  {
+    "id": "3571158",
+    "model": "JCPT1823RT",
+    "brand": "Dingli",
+    "category": "Rough Terrain Scissor",
+    "workingHeight": "18.00 m",
+    "capacity": "680 kg",
+    "status": "available",
+    "images": [
+      "/used/jcpt1823rt.webp"
+    ],
+    "notes": "Diesel, 36.8 kW engine, four-wheel drive with automatic levelling, dual extension deck."
+  },
+  {
+    "id": "3571156",
+    "model": "JCPT0807",
+    "brand": "Dingli",
+    "category": "Electric Slab Scissor",
+    "workingHeight": "7.80 m",
+    "capacity": "230 kg",
+    "status": "available",
+    "images": [
+      "/used/jcpt0807.webp"
+    ],
+    "notes": "Battery drive with sealed AC drive and lift system, automatic pothole protection, extension deck and on-board fault codes."
+  },
+  {
+    "id": "3571155",
+    "model": "JCPT1212",
+    "brand": "Dingli",
+    "category": "Electric Slab Scissor",
+    "workingHeight": "12.00 m",
+    "capacity": "320 kg",
+    "status": "available",
+    "images": [
+      "/used/jcpt1212.webp"
+    ],
+    "notes": "Battery drive with sealed AC drive and lift system, automatic pothole protection, extension deck and on-board fault codes."
+  },
+  {
+    "id": "3571151",
+    "model": "JCPT1412",
+    "brand": "Dingli",
+    "category": "Electric Slab Scissor",
+    "workingHeight": "13.80 m",
+    "capacity": "320 kg",
+    "status": "available",
+    "images": [
+      "/used/jcpt1412.webp"
+    ],
+    "notes": "Battery drive with sealed AC drive and lift system, automatic pothole protection, extension deck and on-board fault codes."
+  },
+  {
+    "id": "3571126",
+    "model": "JCPT1612",
+    "brand": "Dingli",
+    "category": "Electric Slab Scissor",
+    "workingHeight": "15.70 m",
+    "capacity": "250 kg",
+    "status": "available",
+    "images": [
+      "/used/jcpt1612.webp"
+    ],
+    "notes": "Battery drive with sealed AC drive and lift system, automatic pothole protection, extension deck and on-board fault codes."
+  }
+]

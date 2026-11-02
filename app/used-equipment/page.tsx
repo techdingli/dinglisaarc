@@ -10,14 +10,12 @@ import { usedMachines, type UsedMachine } from "@/lib/used-equipment";
 export const metadata: Metadata = {
   title: "Used Equipment",
   description:
-    "Pre-owned Dingli boom lifts, scissor lifts and vertical masts for sale in India. Tell us what you need and we'll match it from current stock.",
+    "Pre-owned boom lifts and scissor lifts for sale. Tell us what you need and we'll match it from current stock.",
 };
 
 const statusLabel = { available: "Available", reserved: "Reserved", sold: "Sold" } as const;
 
 function UsedCard({ m }: { m: UsedMachine }) {
-  const height = m.product?.specs["Working Height"];
-  const capacity = m.product?.specs["Capacity"];
   const status = m.status ?? "available";
 
   return (
@@ -26,7 +24,7 @@ function UsedCard({ m }: { m: UsedMachine }) {
         {m.image ? (
           <Image
             src={m.image}
-            alt={m.model}
+            alt={`${m.brand ? `${m.brand} ` : ""}${m.model}`}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
             className={m.images?.length ? "object-cover" : "object-contain p-5"}
@@ -50,29 +48,26 @@ function UsedCard({ m }: { m: UsedMachine }) {
 
       <div className="flex flex-1 flex-col p-5">
         <p className="text-xs font-semibold uppercase tracking-wider text-brand">
-          {m.product?.category ?? "Pre-owned"} &middot; Stock {m.id}
+          {m.spec.category ?? "Pre-owned"}
+          {m.brand && m.brand !== "Dingli" && <> &middot; {m.brand}</>}
         </p>
         <h3 className="mt-1 text-2xl text-ink">{m.model}</h3>
 
         <dl className="mt-4 grid grid-cols-2 gap-3 border-t border-line pt-4 text-sm">
-          <div>
-            <dt className="text-xs text-muted">Hours</dt>
-            <dd className="font-semibold text-ink">
-              {m.hours != null ? m.hours.toLocaleString("en-IN") : "-"}
-            </dd>
-          </div>
-          <div>
-            <dt className="text-xs text-muted">Condition</dt>
-            <dd className="font-semibold text-ink">{m.condition ?? "-"}</dd>
-          </div>
-          <div>
-            <dt className="text-xs text-muted">Working height</dt>
-            <dd className="font-semibold text-ink">{height ?? "-"}</dd>
-          </div>
-          <div>
-            <dt className="text-xs text-muted">Capacity</dt>
-            <dd className="font-semibold text-ink">{capacity ?? "-"}</dd>
-          </div>
+          {[
+            ["Working height", m.spec.workingHeight ?? "-"],
+            ["Capacity", m.spec.capacity ?? "-"],
+            // Shown only when the listing has them.
+            ["Hours", m.hours != null ? m.hours.toLocaleString("en-IN") : null],
+            ["Condition", m.condition ?? null],
+          ]
+            .filter(([, v]) => v !== null)
+            .map(([label, value]) => (
+              <div key={label}>
+                <dt className="text-xs text-muted">{label}</dt>
+                <dd className="font-semibold text-ink">{value}</dd>
+              </div>
+            ))}
         </dl>
 
         {m.notes && <p className="mt-3 text-sm leading-relaxed text-muted">{m.notes}</p>}
@@ -107,12 +102,11 @@ export default function UsedEquipmentPage() {
             Used Equipment
           </p>
           <h1 className="text-5xl sm:text-6xl">
-            Pre-Owned <span className="text-brand">Dingli</span> Machines
+            Pre-Owned <span className="text-brand">Aerial Platforms</span>
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted">
-            Boom lifts, scissor lifts and vertical masts available now. Stock moves
-            quickly - if you don&apos;t see what you need, tell us and we&apos;ll
-            match it.
+            Boom lifts and scissor lifts available now. Stock moves quickly - if
+            you don&apos;t see what you need, tell us and we&apos;ll match it.
           </p>
         </div>
       </section>

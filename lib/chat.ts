@@ -4,6 +4,7 @@ import { products } from "@/lib/catalog";
 import { CHAT_GREETING } from "@/lib/chat-greeting";
 import { phoneSchema } from "@/lib/leads";
 import { differentiators, services, site } from "@/lib/site";
+import { usedMachines } from "@/lib/used-equipment";
 
 /**
  * Knowledge, prompt and tool definitions for the website chat assistant.
@@ -50,6 +51,23 @@ function catalogIndex() {
   ].join("\n");
 }
 
+function usedIndex() {
+  if (usedMachines.length === 0) return "None listed right now.";
+  return usedMachines
+    .map((m) =>
+      [
+        `${m.brand ?? ""} ${m.model}`.trim(),
+        m.spec.category ?? "-",
+        m.spec.workingHeight ?? "-",
+        m.spec.capacity ?? "-",
+        m.year ?? "-",
+        m.hours != null ? `${m.hours} h` : "-",
+        m.price ?? "price on request",
+      ].join(" | "),
+    )
+    .join("\n");
+}
+
 const SYSTEM_PROMPT = `You are the website assistant for ${site.name}, which supplies, commissions and services Dingli aerial work platforms (MEWPs) across India and the SAARC region. You chat with visitors on ${site.url}.
 
 The widget has already greeted the visitor with: "${CHAT_GREETING}"
@@ -78,7 +96,11 @@ The widget has already greeted the visitor with: "${CHAT_GREETING}"
 - Pages: equipment catalogue /equipment, categories /categories, AC+ all-electric /ac-plus-series, used equipment /used-equipment, services /services, dealers /dealers, warranty registration /warranty, contact /contact
 
 ## Catalogue (${products.length} models)
-${catalogIndex()}`;
+${catalogIndex()}
+
+## Used machines in stock (${usedMachines.length}) - shown on /used-equipment
+model | category | working height | capacity | year | hours | price. Where a value is "-", the sales team confirms it with a quote.
+${usedIndex()}`;
 
 export const CHAT_SYSTEM: Anthropic.Beta.BetaTextBlockParam[] = [
   { type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } },
