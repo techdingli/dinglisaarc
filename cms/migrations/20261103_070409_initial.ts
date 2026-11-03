@@ -1,8 +1,15 @@
 import { MigrateUpArgs, MigrateDownArgs, sql } from '@payloadcms/db-postgres'
 
 export async function up({ db, payload, req }: MigrateUpArgs): Promise<void> {
-  // Payload lives in its own schema in the shared Supabase database.
-  await db.execute(sql`CREATE SCHEMA IF NOT EXISTS "payload";`)
+  // Payload lives in its own schema in the shared Supabase database. In
+  // production the schema is pre-created and owned by a restricted role that
+  // cannot create schemas, so only create it when it's missing.
+  await db.execute(sql`
+    DO $$ BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_namespace WHERE nspname = 'payload') THEN
+        CREATE SCHEMA "payload";
+      END IF;
+    END $$;`)
   await db.execute(sql`
    CREATE TYPE "payload"."enum_posts_tag" AS ENUM('News', 'Events', 'Products', 'Guides');
   CREATE TYPE "payload"."enum_posts_status" AS ENUM('draft', 'published');
