@@ -5,7 +5,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ChatWidget } from "@/components/chat-widget";
 import { ExpoStrip } from "@/components/expo-banner";
-import { expo } from "@/lib/expo";
+import { getExpo } from "@/lib/cms";
 import { CHAT_GREETING } from "@/lib/chat-greeting";
 import { site } from "@/lib/site";
 
@@ -38,7 +38,9 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  const expo = await getExpo();
+
   return (
     <html
       lang="en"

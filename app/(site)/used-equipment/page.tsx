@@ -5,7 +5,8 @@ import { ArrowUpRight, Clock, MapPin, PackageSearch, Phone } from "lucide-react"
 import { EnquiryForm } from "@/components/enquiry-form";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion";
 import { site } from "@/lib/site";
-import { usedMachines, type UsedMachine } from "@/lib/used-equipment";
+import { getUsedMachines } from "@/lib/cms";
+import type { UsedMachine } from "@/lib/used-equipment";
 
 export const metadata: Metadata = {
   title: "Used Equipment",
@@ -93,7 +94,8 @@ function UsedCard({ m }: { m: UsedMachine }) {
   );
 }
 
-export default function UsedEquipmentPage() {
+export default async function UsedEquipmentPage() {
+  const usedMachines = await getUsedMachines();
   return (
     <>
       <section className="border-b border-line bg-band py-14">

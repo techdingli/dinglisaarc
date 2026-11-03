@@ -17,7 +17,7 @@ import { ProductCard } from "@/components/product-card";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { EnquiryForm } from "@/components/enquiry-form";
 import { ExpoFeature } from "@/components/expo-banner";
-import { expo } from "@/lib/expo";
+import { getExpo } from "@/lib/cms";
 import { featuredProducts, familySummary, products } from "@/lib/catalog";
 import { differentiators, faqs, heroStats, industries, site } from "@/lib/site";
 
@@ -55,7 +55,9 @@ const statBand = [
   { value: 80, suffix: "+", label: "Countries Served" },
 ];
 
-export default function HomePage() {
+export default async function HomePage() {
+  const expo = await getExpo();
+
   const featured = featuredProducts(6);
   const families = familySummary();
   const hero = featured[0];

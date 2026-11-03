@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ArrowRight, MapPin, X } from "lucide-react";
-import { dateRange, daysUntil, type Expo } from "@/lib/expo";
+import { dateRange, daysUntil, expoLink, type Expo } from "@/lib/expo";
 
 /** Days to go, computed in the browser so statically built pages stay current. */
 function useCountdown(expo: Expo) {
@@ -53,7 +53,7 @@ export function ExpoStrip({ expo }: { expo: Expo }) {
     <div className="relative overflow-hidden bg-brand text-white">
       <div className="hatch pointer-events-none absolute inset-0 opacity-60" aria-hidden />
       <Link
-        href={expo.post}
+        href={expoLink(expo)}
         className="group container-x relative flex min-h-11 flex-wrap items-center justify-center gap-x-3 gap-y-1 py-2 pr-10 text-center text-xs sm:gap-x-4 sm:text-sm"
       >
         <span className="hidden items-center gap-1.5 rounded-full bg-white/15 px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-[0.14em] sm:inline-flex">
@@ -167,13 +167,13 @@ export function ExpoFeature({ expo }: { expo: Expo }) {
         </div>
 
         <Link
-          href={expo.post}
+          href={expoLink(expo)}
           aria-label={`Read about Dingli at ${expo.name}`}
           className="group relative block aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl shadow-black/50 ring-1 ring-white/10"
         >
           <Image
             src={expo.image}
-            alt={`Dingli at ${expo.name}, ${dateRange(expo)}, ${expo.venue}`}
+            alt={expo.imageAlt}
             fill
             sizes="(min-width: 1024px) 560px, 100vw"
             className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"

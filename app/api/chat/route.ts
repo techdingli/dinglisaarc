@@ -2,7 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import {
   CHAT_MODEL,
-  CHAT_SYSTEM,
+  getChatSystem,
   CHAT_TOOLS,
   createLeadInput,
   type CreateLeadInput,
@@ -149,6 +149,7 @@ export async function POST(request: Request) {
       let needsBreak = false;
 
       try {
+        const system = await getChatSystem();
         for (let round = 0; round <= MAX_TOOL_ROUNDS; round++) {
           const stream = client.beta.messages.stream({
             model: CHAT_MODEL,
@@ -156,7 +157,7 @@ export async function POST(request: Request) {
             betas: ["server-side-fallback-2026-07-01"],
             fallbacks: "default",
             output_config: { effort: "low" },
-            system: CHAT_SYSTEM,
+            system,
             tools: CHAT_TOOLS,
             messages,
           });

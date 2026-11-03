@@ -4,13 +4,16 @@ import { products } from "@/lib/catalog";
 import { CHAT_GREETING } from "@/lib/chat-greeting";
 import { phoneSchema } from "@/lib/leads";
 import { differentiators, services, site } from "@/lib/site";
-import { usedMachines } from "@/lib/used-equipment";
+import { getPosts, getUsedMachines } from "@/lib/cms";
+import type { UsedMachine } from "@/lib/used-equipment";
 
 /**
  * Knowledge, prompt and tool definitions for the website chat assistant.
  *
- * Everything here is built once at module load and never varies per request,
- * so the system prompt and tools stay byte-identical and hit the prompt cache.
+ * The system prompt has two parts: a fixed part (rules, company facts and the
+ * catalogue) built once at module load, and a CMS part (used stock, blog
+ * posts) refreshed every few minutes. Both stay byte-identical between
+ * refreshes, so they hit the prompt cache.
  */
 
 export const CHAT_MODEL = process.env.CHAT_MODEL || "claude-opus-5-5";
@@ -51,7 +54,7 @@ function catalogIndex() {
   ].join("\n");
 }
 
-function usedIndex() {
+function usedIndex(usedMachines: UsedMachine[]) {
   if (usedMachines.length === 0) return "None listed right now.";
   return usedMachines
     .map((m) =>
@@ -93,18 +96,40 @@ The widget has already greeted the visitor with: "${CHAT_GREETING}"
 - Hours: ${site.hours}
 - Services: ${services.map((s) => `${s.name} (${s.blurb})`).join("; ")}
 - Why customers choose us: ${differentiators.map((d) => `${d.title} - ${d.blurb}`).join("; ")}
-- Pages: equipment catalogue /equipment, categories /categories, AC+ all-electric /ac-plus-series, used equipment /used-equipment, services /services, dealers /dealers, warranty registration /warranty, blog /blog (bauma CHINA 2026 article: /blog/bauma-china-2026), contact /contact
+- Pages: equipment catalogue /equipment, categories /categories, AC+ all-electric /ac-plus-series, used equipment /used-equipment, services /services, dealers /dealers, warranty registration /warranty, blog /blog, contact /contact
 
 ## Catalogue (${products.length} models)
-${catalogIndex()}
+${catalogIndex()}`;
 
-## Used machines in stock (${usedMachines.length}) - shown on /used-equipment
+const CMS_TTL_MS = 5 * 60_000;
+let cmsPart: { text: string; at: number } | undefined;
+
+async function buildCmsPart() {
+  const [used, posts] = await Promise.all([getUsedMachines(), getPosts()]);
+  return `## Used machines in stock (${used.length}) - shown on /used-equipment
 model | category | working height | capacity | year | hours | price. Where a value is "-", the sales team confirms it with a quote.
-${usedIndex()}`;
+${usedIndex(used)}
 
-export const CHAT_SYSTEM: Anthropic.Beta.BetaTextBlockParam[] = [
-  { type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } },
-];
+## Blog articles
+${posts.length ? posts.map((p) => `- [${p.title}](/blog/${p.slug}) - ${p.excerpt}`).join("\n") : "None yet."}`;
+}
+
+/** System prompt blocks for a chat request. */
+export async function getChatSystem(): Promise<Anthropic.Beta.BetaTextBlockParam[]> {
+  if (!cmsPart || Date.now() - cmsPart.at > CMS_TTL_MS) {
+    try {
+      cmsPart = { text: await buildCmsPart(), at: Date.now() };
+    } catch (error) {
+      // Keep chatting with the last good copy (or without it) if the CMS is down.
+      console.error("[chat] could not load CMS content", error);
+      cmsPart ??= { text: "## Used machines and blog\nNot available right now.", at: 0 };
+    }
+  }
+  return [
+    { type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } },
+    { type: "text", text: cmsPart.text, cache_control: { type: "ephemeral" } },
+  ];
+}
 
 export const createLeadInput = z.object({
   name: z.string().trim().min(2).max(100),

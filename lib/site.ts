@@ -110,30 +110,3 @@ export const faqs = [
   },
 ] as const;
 
-/**
- * Leadership shown on the About page. Add `photo` (a path under /public) and
- * `linkedin` as they become available; without a photo the card shows initials.
- */
-export const team: {
-  name: string;
-  role: string;
-  focus: string;
-  photo?: string;
-  linkedin?: string;
-}[] = [
-  {
-    name: "Sagar Sawlani",
-    role: "CEO - SAARC",
-    focus: "Leads Dingli AWP India across India and the SAARC region.",
-  },
-  {
-    name: "Ranjit",
-    role: "Dealer Management",
-    focus: "Builds and supports the authorised dealer network across India.",
-  },
-  {
-    name: "Mutul",
-    role: "Rental Sales",
-    focus: "Works with rental companies on fleet supply and expansion.",
-  },
-];

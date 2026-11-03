@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowUpRight, Award, Factory, Globe2, Lightbulb } from "lucide-react";
 import { CountUp, Reveal, Stagger, StaggerItem } from "@/components/motion";
 import { SectionHeading } from "@/components/section-heading";
-import { team } from "@/lib/site";
+import { getTeam } from "@/lib/cms";
 
 export const metadata: Metadata = {
   title: "About",
@@ -46,7 +46,8 @@ const pillars = [
   },
 ];
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const team = await getTeam();
   return (
     <>
       <section className="border-b border-line bg-band py-14">
@@ -107,6 +108,7 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {team.length > 0 && (
       <section className="border-t border-line bg-band py-20">
         <div className="container-x">
           <SectionHeading
@@ -165,6 +167,7 @@ export default function AboutPage() {
           </Stagger>
         </div>
       </section>
+      )}
 
       <section className="bg-ink py-20">
         <div className="container-x text-center">

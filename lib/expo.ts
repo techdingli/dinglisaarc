@@ -1,42 +1,31 @@
 /**
- * The expo currently promoted across the site. Dingli exhibits every couple
- * of months - update this object (and drop the new artwork in /public/expo)
- * for each show. Banners hide themselves automatically after `end`.
+ * Shape of the expo promoted in the top bar and the home page showcase. The
+ * content is edited in the CMS (/admin, "Expo banner") and read by getExpo()
+ * in lib/cms.ts; this file only holds the type and display helpers, so the
+ * client-side banner can import it.
  */
 export type Expo = {
   name: string;
   /** Short label for tight spaces, e.g. the announcement strip. */
   shortName: string;
-  start: string; // ISO date, local to the venue
+  start: string; // YYYY-MM-DD, local to the venue
   end: string;
   city: string;
   venue: string;
   booth: string;
   blurb: string;
-  /** 4:3 banner artwork for the home page showcase, under /public/expo. */
+  /** 4:3 banner artwork for the home page showcase. */
   image: string;
+  imageAlt: string;
   cta: { label: string; href: string };
   /** Blog post about the show; the bar and the showcase image link to it. */
-  post: string;
+  post?: string;
   /** Official event site. */
   url?: string;
 };
 
-export const expo: Expo | null = {
-  name: "bauma CHINA 2026",
-  shortName: "bauma CHINA",
-  start: "2026-11-24",
-  end: "2026-11-27",
-  city: "Shanghai, China",
-  venue: "Shanghai New International Expo Centre",
-  booth: "TBA",
-  blurb:
-    "Asia's largest construction machinery show. See Dingli's boom lifts, scissor lifts and the AC+ all-electric range up close, and meet the team.",
-  image: "/expo/bauma-china-2026.webp",
-  cta: { label: "Book a meeting", href: "/contact" },
-  post: "/blog/bauma-china-2026",
-  url: "https://www.bauma-china.com/",
-};
+/** Where the bar and the showcase image go: the article, else the button link. */
+export const expoLink = (e: Expo) => e.post ?? e.cta.href;
 
 const DAY = 86_400_000;
 

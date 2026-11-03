@@ -3,12 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Phone } from "lucide-react";
-import { renderInline } from "@/components/inline-markdown";
-import { formatDate, getPost, posts, type Block } from "@/lib/blog";
+import { RichText } from "@/components/rich-text";
+import { formatDate } from "@/lib/blog";
+import { getPost, getPosts } from "@/lib/cms";
 import { site } from "@/lib/site";
 
-export function generateStaticParams() {
-  return posts.map((p) => ({ slug: p.slug }));
+export async function generateStaticParams() {
+  return (await getPosts()).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({
@@ -17,7 +18,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = getPost(slug);
+  const post = await getPost(slug);
   if (!post) return { title: "Article not found" };
 
   return {
@@ -33,46 +34,13 @@ export async function generateMetadata({
   };
 }
 
-function BodyBlock({ block }: { block: Block }) {
-  switch (block.type) {
-    case "h2":
-      return <h2 className="mt-12 text-3xl sm:text-4xl">{block.text}</h2>;
-    case "p":
-      return <p className="mt-5 text-lg leading-relaxed text-ink-soft">{renderInline(block.text)}</p>;
-    case "ul":
-      return (
-        <ul className="mt-5 space-y-3 text-lg leading-relaxed text-ink-soft">
-          {block.items.map((item) => (
-            <li key={item} className="flex gap-3">
-              <span className="mt-3 size-1.5 shrink-0 rounded-full bg-brand" />
-              <span>{renderInline(item)}</span>
-            </li>
-          ))}
-        </ul>
-      );
-    case "facts":
-      return (
-        <dl className="mt-6 divide-y divide-line overflow-hidden rounded-xl border border-line">
-          {block.items.map((f) => (
-            <div key={f.label} className="grid gap-1 bg-white px-5 py-4 sm:grid-cols-[160px_1fr] sm:gap-6">
-              <dt className="text-xs font-bold uppercase tracking-[0.14em] text-muted sm:pt-1">
-                {f.label}
-              </dt>
-              <dd className="text-lg font-semibold text-ink">{renderInline(f.value)}</dd>
-            </div>
-          ))}
-        </dl>
-      );
-  }
-}
-
 export default async function BlogPostPage({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = getPost(slug);
+  const post = await getPost(slug);
   if (!post) notFound();
 
   return (
@@ -111,9 +79,7 @@ export default async function BlogPostPage({
       </div>
 
       <div className="container-x max-w-3xl pb-16 lg:pb-20">
-        {post.body.map((block, i) => (
-          <BodyBlock key={i} block={block} />
-        ))}
+        <RichText data={post.body} />
 
         <aside className="mt-14 rounded-2xl bg-ink p-8 text-white sm:p-10">
           <h2 className="text-3xl sm:text-4xl">Talk to our team</h2>

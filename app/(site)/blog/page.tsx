@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Stagger, StaggerItem } from "@/components/motion";
-import { formatDate, posts } from "@/lib/blog";
+import { formatDate } from "@/lib/blog";
+import { getPosts } from "@/lib/cms";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -11,8 +12,8 @@ export const metadata: Metadata = {
     "News, events and insights on aerial work platforms from Dingli AWP India - expos, product updates and practical guidance for working at height.",
 };
 
-export default function BlogPage() {
-  const [lead, ...rest] = posts;
+export default async function BlogPage() {
+  const [lead, ...rest] = await getPosts();
 
   return (
     <>
@@ -71,7 +72,7 @@ export default function BlogPage() {
                   >
                     <div className="relative aspect-[4/3] bg-band">
                       <Image
-                        src={post.cover}
+                        src={post.coverCard || post.cover}
                         alt={post.coverAlt}
                         fill
                         sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
