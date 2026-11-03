@@ -3,11 +3,14 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    // Serve the files in /public as-is. They are already compressed WebP, and
-    // Vercel's optimizer refuses new transformations once the plan's image
-    // quota is used up (HTTP 402), which left new images blank on the site.
-    // CMS uploads come with their own resized copies (see cms/collections/Media).
-    unoptimized: true,
+    // CMS uploads are served from the Supabase Storage bucket.
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "hehrynjgpmdpbfgdxnvn.supabase.co",
+        pathname: "/storage/v1/object/public/**",
+      },
+    ],
   },
 };
 

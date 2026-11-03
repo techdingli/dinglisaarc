@@ -27,6 +27,9 @@ const s3 = {
   region: process.env.S3_REGION || "ap-south-1",
   accessKeyId: process.env.S3_ACCESS_KEY_ID,
   secretAccessKey: process.env.S3_SECRET_ACCESS_KEY,
+  // Supabase "session token" auth: access key = project ref, secret = anon
+  // key, session token = service role key. Leave empty with dashboard S3 keys.
+  sessionToken: process.env.S3_SESSION_TOKEN || undefined,
   publicUrl: process.env.S3_PUBLIC_URL,
 };
 const useS3 = Boolean(s3.bucket && s3.endpoint && s3.accessKeyId && s3.secretAccessKey);
@@ -91,6 +94,7 @@ export default buildConfig({
         credentials: {
           accessKeyId: s3.accessKeyId || "",
           secretAccessKey: s3.secretAccessKey || "",
+          sessionToken: s3.sessionToken,
         },
       },
     }),

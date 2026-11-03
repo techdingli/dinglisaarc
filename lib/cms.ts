@@ -14,10 +14,17 @@ export const payloadClient = cache(() => getPayload({ config }));
 
 type Size = "thumb" | "card" | "hero";
 
-/** URL of an uploaded image, preferring a resized copy when one exists. */
+const serverUrl = process.env.NEXT_PUBLIC_SERVER_URL || "";
+
+/**
+ * URL of an uploaded image, preferring a resized copy when one exists. Files
+ * served by this site itself (local storage) are made relative so next/image
+ * treats them as local; Supabase Storage URLs stay absolute.
+ */
 export function mediaUrl(media: number | Media | null | undefined, size?: Size) {
   if (!media || typeof media === "number") return undefined;
-  return (size && media.sizes?.[size]?.url) || media.url || undefined;
+  const url = (size && media.sizes?.[size]?.url) || media.url || undefined;
+  return url && serverUrl && url.startsWith(serverUrl) ? url.slice(serverUrl.length) : url;
 }
 
 const day = (iso: string | null | undefined) => (iso ? iso.slice(0, 10) : "");
